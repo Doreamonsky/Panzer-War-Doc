@@ -809,6 +809,22 @@ references:
   isSpec: "True"
   fullName: ShanghaiWindy.Core.API.ComponentAPI.GetNativeComponentsInParent
   nameWithType: ComponentAPI.GetNativeComponentsInParent
+- uid: ShanghaiWindy.Core.API.ComponentAPI.GetObjectsInWorld(System.String)
+  name: GetObjectsInWorld(string)
+  href: api/ShanghaiWindy.Core.API.ComponentAPI.html#ShanghaiWindy_Core_API_ComponentAPI_GetObjectsInWorld_System_String_
+  commentId: M:ShanghaiWindy.Core.API.ComponentAPI.GetObjectsInWorld(System.String)
+  name.vb: GetObjectsInWorld(String)
+  fullName: ShanghaiWindy.Core.API.ComponentAPI.GetObjectsInWorld(string)
+  fullName.vb: ShanghaiWindy.Core.API.ComponentAPI.GetObjectsInWorld(String)
+  nameWithType: ComponentAPI.GetObjectsInWorld(string)
+  nameWithType.vb: ComponentAPI.GetObjectsInWorld(String)
+- uid: ShanghaiWindy.Core.API.ComponentAPI.GetObjectsInWorld*
+  name: GetObjectsInWorld
+  href: api/ShanghaiWindy.Core.API.ComponentAPI.html#ShanghaiWindy_Core_API_ComponentAPI_GetObjectsInWorld_
+  commentId: Overload:ShanghaiWindy.Core.API.ComponentAPI.GetObjectsInWorld
+  isSpec: "True"
+  fullName: ShanghaiWindy.Core.API.ComponentAPI.GetObjectsInWorld
+  nameWithType: ComponentAPI.GetObjectsInWorld
 - uid: ShanghaiWindy.Core.API.ConfigAPI
   name: ConfigAPI
   href: api/ShanghaiWindy.Core.API.ConfigAPI.html
