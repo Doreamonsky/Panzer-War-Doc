@@ -1879,6 +1879,22 @@ references:
   isSpec: "True"
   fullName: ShanghaiWindy.Core.API.PointAPI.GetTeamBStartPoints
   nameWithType: PointAPI.GetTeamBStartPoints
+- uid: ShanghaiWindy.Core.API.PointAPI.ToggleMapBoundary(System.Boolean)
+  name: ToggleMapBoundary(bool)
+  href: api/ShanghaiWindy.Core.API.PointAPI.html#ShanghaiWindy_Core_API_PointAPI_ToggleMapBoundary_System_Boolean_
+  commentId: M:ShanghaiWindy.Core.API.PointAPI.ToggleMapBoundary(System.Boolean)
+  name.vb: ToggleMapBoundary(Boolean)
+  fullName: ShanghaiWindy.Core.API.PointAPI.ToggleMapBoundary(bool)
+  fullName.vb: ShanghaiWindy.Core.API.PointAPI.ToggleMapBoundary(Boolean)
+  nameWithType: PointAPI.ToggleMapBoundary(bool)
+  nameWithType.vb: PointAPI.ToggleMapBoundary(Boolean)
+- uid: ShanghaiWindy.Core.API.PointAPI.ToggleMapBoundary*
+  name: ToggleMapBoundary
+  href: api/ShanghaiWindy.Core.API.PointAPI.html#ShanghaiWindy_Core_API_PointAPI_ToggleMapBoundary_
+  commentId: Overload:ShanghaiWindy.Core.API.PointAPI.ToggleMapBoundary
+  isSpec: "True"
+  fullName: ShanghaiWindy.Core.API.PointAPI.ToggleMapBoundary
+  nameWithType: PointAPI.ToggleMapBoundary
 - uid: ShanghaiWindy.Core.API.RandomAPI
   name: RandomAPI
   href: api/ShanghaiWindy.Core.API.RandomAPI.html
