@@ -1863,6 +1863,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/release/周报 2023_11_1.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/release/周报 2023_11_1.html",
+          "hash": "Ajh92sxSi4YrAwnrOr1JWQsHRUxqnS3MKbinPO6RuAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/release/周报 2023_1_14 决定版更新日志.md",
       "output": {
         ".html": {
@@ -2239,7 +2251,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "9CSlrb+IOYHLh4lyBJeojhvxsjX7FPRxU29t3IKuUiE="
+          "hash": "Dbyu2kFMVezDiOjvuIh7wo8kSJfV4i5XtHcwxReK4cg="
         }
       },
       "is_incremental": false,
@@ -7802,7 +7814,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/日报.html",
-          "hash": "9hznJkon9u5PPHU5tIezHrDQ/A+d1D6W2LJZBNDCrlw="
+          "hash": "kHqgzwYXksnVeFvEWQugy6ymUfW5hLIj1mozZBlshY8="
         }
       },
       "is_incremental": false,
@@ -7835,7 +7847,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 120,
+          "total_file_count": 121,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
