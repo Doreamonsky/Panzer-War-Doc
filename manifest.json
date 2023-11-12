@@ -808,7 +808,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Lua.ILuaBase.html",
-          "hash": "i9HyRubpvfhp6bBgrbulc3juEhhbRMB5iHoiNUnYn1g="
+          "hash": "aBWipEWKWvIzYk6h2kSDciy8NQz1xYkzMlfnrdYzr+I="
         }
       },
       "is_incremental": false,
@@ -820,7 +820,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Lua.ILuaBehavior.html",
-          "hash": "sgHc4kl4lR/2tQh2zwEVVwRJgFAm4CLfT7OUq7egH90="
+          "hash": "uf9OFkBGq/Bvz5mZRBS+TgNeomMRNUf7jE3P8jEmPlU="
         }
       },
       "is_incremental": false,
@@ -844,7 +844,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Lua.ILuaCommon.html",
-          "hash": "7wK/BxpF30+rdgoCrszh03FvhT1Gv48+VuTpsVr5/Mc="
+          "hash": "BX6vE7Jb18QutRJoqbhJj0F4ZLxi8zd+RiI3Ynp04bk="
         }
       },
       "is_incremental": false,
@@ -856,7 +856,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Lua.ILuaControllableVehicle.html",
-          "hash": "O93dKnsKlUHm8TOBY7rFw3qbkaKDVmt7kzAuoLdDHQ4="
+          "hash": "GD8Nb4+Wlk34jI+4mVRn+bZtTlxD2kWm5PJdaaKnv6Q="
         }
       },
       "is_incremental": false,
@@ -868,7 +868,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Lua.ILuaGameMode.html",
-          "hash": "dZKVWERiiOjbH2RuwAquu6CtSHV2cswPX4rQA0Jo9jk="
+          "hash": "y2lCRyGCv5sEEpKRz+JYhsb2N4fkE543R4gM4AAG6vM="
         }
       },
       "is_incremental": false,
@@ -1532,7 +1532,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/lua/22.5.5 自定义 Lua Buff.html",
-          "hash": "su+M6PTsn/H5QK/ayzQfnXfCviZksd2yiLKUrDMRICw="
+          "hash": "qkZLZEmqo5nNPZX2N7JU4LkEg1Wv+IO1zrFB7RYVpBY="
         }
       },
       "is_incremental": false,
@@ -1868,6 +1868,18 @@
         ".html": {
           "relative_path": "manual/release/周报 2023_11_1.html",
           "hash": "cFm2he2GsOHOIs0DHyAUodxnEqvBJAJb5t4Pwc2P0f4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/release/周报 2023_11_11.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/release/周报 2023_11_11.html",
+          "hash": "22HWZSJvQDR4GufIRsxuFjt/iCPpdsI1+IYzjdAt04M="
         }
       },
       "is_incremental": false,
@@ -2251,7 +2263,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "mIX9BT4m4BFjO+s3JB76QPELAt5lTTl2lT+0bY6c40w="
+          "hash": "txEe1oKlSFqiiJxeiclSCNuVwvqUf3RDmaD6HHPUiw0="
         }
       },
       "is_incremental": false,
@@ -7814,7 +7826,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/日报.html",
-          "hash": "UZF9OAirKt393rUiVutlcuD524Xw5kYloTSVX4ty+AY="
+          "hash": "l5M1+TWiO9lO+REJ2n2T/DkkIEinXNb8iOMDmBVMw+k="
         }
       },
       "is_incremental": false,
@@ -7847,7 +7859,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 121,
+          "total_file_count": 122,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

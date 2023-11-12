@@ -3452,6 +3452,19 @@ references:
   isSpec: "True"
   fullName: ShanghaiWindy.Core.Lua.ILuaBase.description
   nameWithType: ILuaBase.description
+- uid: ShanghaiWindy.Core.Lua.ILuaBase.isDefinitiveOnly
+  name: isDefinitiveOnly
+  href: api/ShanghaiWindy.Core.Lua.ILuaBase.html#ShanghaiWindy_Core_Lua_ILuaBase_isDefinitiveOnly
+  commentId: P:ShanghaiWindy.Core.Lua.ILuaBase.isDefinitiveOnly
+  fullName: ShanghaiWindy.Core.Lua.ILuaBase.isDefinitiveOnly
+  nameWithType: ILuaBase.isDefinitiveOnly
+- uid: ShanghaiWindy.Core.Lua.ILuaBase.isDefinitiveOnly*
+  name: isDefinitiveOnly
+  href: api/ShanghaiWindy.Core.Lua.ILuaBase.html#ShanghaiWindy_Core_Lua_ILuaBase_isDefinitiveOnly_
+  commentId: Overload:ShanghaiWindy.Core.Lua.ILuaBase.isDefinitiveOnly
+  isSpec: "True"
+  fullName: ShanghaiWindy.Core.Lua.ILuaBase.isDefinitiveOnly
+  nameWithType: ILuaBase.isDefinitiveOnly
 - uid: ShanghaiWindy.Core.Lua.ILuaBase.isPreview
   name: isPreview
   href: api/ShanghaiWindy.Core.Lua.ILuaBase.html#ShanghaiWindy_Core_Lua_ILuaBase_isPreview
