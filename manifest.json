@@ -2263,7 +2263,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "txEe1oKlSFqiiJxeiclSCNuVwvqUf3RDmaD6HHPUiw0="
+          "hash": "VPcCc9Bc2HDy9bd5J4yVCEOgYZxB+Kb+ZxFwPz3mKiQ="
         }
       },
       "is_incremental": false,
@@ -2960,6 +2960,18 @@
         ".html": {
           "relative_path": "manual/tutorial/30. LRM 服务器搭建.html",
           "hash": "IEikqo0zLciXVzl1CgtYqJaMRMi2c1eVtgoUjHP0drU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/tutorial/31. Simplygon LOD.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tutorial/31. Simplygon LOD.html",
+          "hash": "YPT2BXUBgfRo1uQ/77Kp8o5399mnvaJYmVuH8Yx9pZw="
         }
       },
       "is_incremental": false,
@@ -7818,6 +7830,50 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "manual/tutorial/images/20231114160809.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/tutorial/images/20231114160809.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/tutorial/images/20231114161107.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/tutorial/images/20231114161107.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/tutorial/images/20231114161512.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/tutorial/images/20231114161512.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/tutorial/images/20231114161611.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/tutorial/images/20231114161611.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "log_codes": [
         "InvalidFileLink"
       ],
@@ -7848,23 +7904,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 122,
-          "skipped_file_count": 120
+          "total_file_count": 123,
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 93,
-          "skipped_file_count": 6
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

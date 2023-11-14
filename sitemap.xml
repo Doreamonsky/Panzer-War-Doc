@@ -2,1291 +2,1297 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.waroftanks.cn/doc/api/index.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.AbstractBattlePlayer.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.ArmyAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.AssetAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.BattlePlayerAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.BotAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.BuffAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.CameraAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.CaptureZoneAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.ColorAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.ComponentAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.ConfigAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.ConvertAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.CustomOptionUIAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.FlightAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.FontAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.GameAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.GameObjectAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.InputAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.MapAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.MaterialAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.MeshAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.ModeAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.PointAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.RandomAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.SoundAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.SpawnAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.SpawnVehicleAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.StorageAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.TankAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.TeamAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.TimeAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.TransformAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.UIAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.VehicleAPI.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.API.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.BaseFireSystem.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.BaseInitSystem.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.BasePlayerState.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.CaptureZoneInfo.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.CaptureZoneTask.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Data.BulletFiredInfo.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Data.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.AssetLoadedDelegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.LoadPoolAssetDelegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnBattleSceneLoadedDelegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnBattleUILoadedDelegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnFiredDelegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnGameVehicleDestroyedDelegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnGameVehicleGameObjectRemovedDelegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnGameVehicleLoadedDelegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnKeyCanceled.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnKeyPerformed.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnKeyRegistered.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnKeyUnregistered.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnQuarterTickDelegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnTickDelegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnVehicleDestroyedDelegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnVehicleLoadedDelegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnVehicleRemovedDelegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.OnVehicleThumbnailLoadedDelegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.PostEventLoadedDelegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Delegate.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.ECaptureStage.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.EIconPosition.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.FlightPlayerState.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Lua.ILuaBase.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Lua.ILuaBehavior.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Lua.ILuaBuffCaster.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Lua.ILuaCommon.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Lua.ILuaControllableVehicle.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Lua.ILuaGameMode.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Lua.LuaBehaviorMono.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.Lua.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.PropValue-1.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.TankFire.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.TankInitSystem.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.TankVehicleComponents.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.TeamManager.Team.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.TeamManager.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.TurretController.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.UIEnum.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.VehicleInfo.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Core.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Data.CaptureZone.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Data.CaptureZoneModeConfig.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Data.MaterialConfig.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Data.TransformInfo.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Data.WaveAttackInfo.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Data.WaveInfo.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Data.WaveMissionConfig.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Data.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Data.ZoneCapturePoint.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/api/ShanghaiWindy.Data.ZoneChain.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/index.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/%E6%97%A5%E6%8A%A5.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/component/1.%20%E5%86%85%E7%BD%AE%E7%BB%84%E4%BB%B6%E6%96%87%E6%A1%A3.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/component/2.%20FmodPlayComponent%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/component/3.%20VehicleTextData%20%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/gamePlay/1.%20%E6%B8%B8%E6%88%8F%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/gamePlay/2.%20%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/gamePlay/3.%20%E6%B8%B8%E6%88%8F%E8%BF%90%E8%A1%8C%E6%97%A5%E5%BF%97%E6%98%BE%E7%A4%BA.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/gamePlay/4.%20%E6%A8%A1%E7%BB%84%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/gamePlay/5.%20%E9%97%AA%E9%80%80%20&amp;%20%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/gamePlay/6.%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/gamePlay/7.%20Ravenfield%20%E5%9C%B0%E5%9B%BE%E6%A8%A1%E7%BB%84%E6%94%AF%E6%8C%81%20Ravenfield%20Map%20Tool%20Support.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/intro.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/lua/22.%20Lua%20%E5%BC%80%E5%8F%91.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/lua/22.1%20Lua%20%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/lua/22.2%20Lua%20Profiler%20%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/lua/22.3%20%E5%AE%89%E8%A3%85%20VS%20Code%20%E5%92%8C%E9%85%8D%E7%BD%AE%20Emmy%20Lua%20%E7%8E%AF%E5%A2%83.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/lua/22.3.1%20%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%20JDK%EF%BC%88Java%20Development%20Kit%EF%BC%89.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/lua/22.4%20%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%20LuaBehaviorMono%20%E7%BB%84%E4%BB%B6.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/lua/22.5%20Lua%20%E8%AF%BE%E9%A2%98.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/lua/22.5.1%20%E7%AC%AC%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81%20Hello%20World.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/lua/22.5.2%20%E5%B1%9E%E6%80%A7%20Property.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/lua/22.5.3%20%E5%9B%9E%E8%B0%83%20Callback.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/lua/22.5.4%20%E5%9C%BA%E6%99%AF%E5%8A%9F%E8%83%BD%EF%BC%9A%E9%9A%8F%E6%9C%BA%E9%99%A8%E7%9F%B3.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/lua/22.5.5%20%E8%87%AA%E5%AE%9A%E4%B9%89%20Lua%20Buff.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/lua/22.6%20Lua%20%E7%9F%A5%E8%AF%86%E5%BA%93.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%200730%20%E7%89%88%E6%9C%AC%E6%A8%A1%E5%9D%97%E5%8C%96%E8%BD%BD%E5%85%B7%E9%9C%80%E6%B1%82%E5%8D%95.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202022_6_5.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_1_14%20%E5%86%B3%E5%AE%9A%E7%89%88%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_1_26%20%E5%86%B3%E5%AE%9A%E7%89%88%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_1_29%20%E5%86%B3%E5%AE%9A%E7%89%88%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_1_29%20%E6%99%AE%E9%80%9A%E7%89%88%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_1_8%20%E5%86%B3%E5%AE%9A%E7%89%88%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_10_28.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_11_1.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_11_11.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_2_26.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_3_12.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_4_15.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_4_16.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_4_18.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_4_2%20%E5%86%B3%E5%AE%9A%E7%89%88%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_4_3.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_5_11.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_5_14.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_5_3%20%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%202023_5_7%20%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%205_15.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%205.21.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%206.24%20%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%206.26.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%206.27.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%206.5%20%E6%99%AE%E9%80%9A%E7%89%88.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%207.23.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%207.30.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%207.31.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%207.8.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%208.1.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%208.6.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%208.7.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%208.8%20%E5%86%B3%E5%AE%9A%E7%89%88%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/release/%E5%91%A8%E6%8A%A5%20Google%20%E6%B5%B7%E5%A4%96%20RC.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/0-1.%20%E6%A8%A1%E7%BB%84%E5%B7%A5%E5%85%B7%E5%8D%87%E7%BA%A7%E6%97%A5%E5%BF%97.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/0-2.%20%E6%A8%A1%E7%BB%84%E5%B7%A5%E5%85%B7%20NPM%20%E7%89%88.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/0-3.%20Shared%20Resources%20%E5%85%B1%E4%BA%AB%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E5%A4%B9.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/0-4.%20Old%20Project%20Migration%20%E6%97%A7%E5%B7%A5%E7%A8%8B%E8%BF%81%E7%A7%BB%E6%96%B0%E5%B7%A5%E7%A8%8B.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/0-5.%20Umodpack%20%E5%8D%87%E7%BA%A7%E5%85%AC%E7%A4%BA.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/01-1.%20GetStarted%20%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E5%8C%96.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/01-2.%20Unity%20Engine%20Requirement%20Unity%20%E5%BC%95%E6%93%8E%E7%89%88%E6%9C%AC%E8%A6%81%E6%B1%82.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/01-3.%20Install%20Git%20%E5%AE%89%E8%A3%85%20Git.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/01-4.%20Install%20Toroisegit%20%E5%AE%89%E8%A3%85%E5%B0%8F%E4%B9%8C%E9%BE%9F.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/02-1.%20Basic%20%E5%9F%BA%E7%A1%80.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/02-10.%20%E5%8F%8D%E5%BA%94%E8%A3%85%E7%94%B2.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/02-2.%20SPG%20_%20TD%20_%20Strv%20%E7%81%AB%E7%82%AE,%E5%8F%8D%E5%9D%A6%E5%85%8B%EF%BC%8C%E6%B6%B2%E5%8E%8B%E6%82%AC%E6%8C%82.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/02-3.%20Multi-Fire%20(Old)%20-%20%E5%A4%9A%E7%82%AE%E5%A1%94%20%EF%BC%88%E6%97%A7%EF%BC%89.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/02-4.%20Material%20Component%20%E6%9D%90%E8%B4%A8%E7%BB%84%E4%BB%B6.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/02-5.%20Physic%20Wheel%20%E7%89%A9%E7%90%86%E8%BD%AE%E5%AD%90.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/02-6.%20Flight%20%E9%A3%9E%E6%9C%BA.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/02-7.%20%E7%A5%9D%E6%98%94%E7%9A%84%E8%BD%BD%E5%85%B7%20Mod%20%E5%BC%80%E5%8F%91%E6%80%BB%E7%BB%93.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/02-8.%20%E6%A8%B1%E8%8A%B1%E7%9A%84%E5%9D%A6%E5%85%8B%E6%8A%9B%E5%A3%B3%E5%8A%A8%E7%94%BB.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/02-9.%20Q&amp;A%20%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87%E8%A7%A3%E5%86%B3.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/03.%20Map%20Wizard%20Tutorial%20%E5%9C%B0%E5%9B%BE%E6%95%99%E7%A8%8B.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/04.%20Multi-Platform%20Build%20%E5%A4%9A%E5%B9%B3%E5%8F%B0%E6%89%93%E5%8C%85.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/05.%20Create%20Mech%20%E5%88%9B%E5%BB%BA%E6%9C%BA%E7%94%B2.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/06.%20Track%20IK%20%E6%82%AC%E6%8C%82%E6%9E%B6%E6%95%99%E7%A8%8B.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/07.%20VFX%20Mod%20%E7%89%B9%E6%95%88%E6%A8%A1%E7%BB%84.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/08.%20Vehicle%20Thumbnail%20%E8%BD%BD%E5%85%B7%E7%BC%A9%E7%95%A5%E5%9B%BE.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/09.%20Sight%20Mod%20%E7%9E%84%E5%85%B7%E6%A8%A1%E7%BB%84%20(%E6%9C%AA%E6%B1%89%E5%8C%96).html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/10.%20Encryption%20%E5%8A%A0%E5%AF%86%E6%A8%A1%E7%BB%84%20(%E6%9C%AA%E6%B1%89%E5%8C%96).html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/11.%20Covert%20To%20DIY%20Equipment%E4%B8%80%E9%94%AE%E8%BD%AC%E4%B8%BA%20DIY%20%E9%85%8D%E4%BB%B6.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/12.%20Project%20Link%20%E9%A1%B9%E7%9B%AE%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/13.%20Destructive%20Objects%20%E5%8F%AF%E7%A0%B4%E5%9D%8F%E7%89%A9%E4%BD%93.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/14.%20Upload%20to%20Steam%20Workshop%20%E4%B8%8A%E4%BC%A0%20Steam%20%E5%88%9B%E6%84%8F%E5%B7%A5%E5%9D%8A.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/15.Upgrade%202021%20Editor%20%E5%8D%87%E7%BA%A7%202021%20%E7%BC%96%E8%BE%91%E5%99%A8.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/16.Voice%20Pack%20%E8%AF%AD%E8%A8%80%E5%8C%85.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/17-1.%20%E5%B7%A5%E5%85%B7%E6%80%BB%E7%BB%93.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/17-2.%20%E9%80%86%E5%90%91%E6%A1%88%E4%BE%8B%20%E9%81%AE%E7%BD%A9%E8%B4%B4%E5%9B%BE.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/17-3.%20WT%20%E8%B4%B4%E5%9B%BE%E8%BD%AC%E6%8D%A2.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/17-4.%20Mask%20%E8%B4%B4%E5%9B%BE%E5%90%88%E5%B9%B6.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/17-5.%20Mask%20%E8%B4%B4%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E5%86%85%E9%A2%84%E8%A7%88.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/18-1.%20%E6%8C%81%E7%BB%AD%E6%9E%84%E5%BB%BA%20%EF%BC%88%E8%84%9A%E6%9C%AC%E5%8C%96%E6%9E%84%E5%BB%BA%E6%A8%A1%E7%BB%84%EF%BC%89.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/18-2.%20Jenkins%20%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/20.%20%E5%9C%B0%E5%9B%BE%E5%B7%A5%E5%9D%8A%E7%B4%A0%E6%9D%90%E6%9E%84%E5%BB%BA.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/21.%20UV%20%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B7%A5%E5%85%B7.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/22.%20%E6%88%98%E6%96%97%E6%9C%8D%E6%90%AD%E5%BB%BA.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/23.%20%E6%A8%A1%E5%9E%8B%E4%B8%8D%E6%98%BE%E7%A4%BA.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/25.%20Runtime%20Editor%20Debugger%20%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%9E%E6%97%B6%E8%B0%83%E8%AF%95%E5%8A%9F%E8%83%BD.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/26-1.%20New%20Sound%20System%20%E6%96%B0%E9%9F%B3%E9%A2%91%E7%B3%BB%E7%BB%9F.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/26-2.%20Installation%20%E5%AE%89%E8%A3%85.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/26-3.%20Setup%20Fmod%20Proj%20%E8%AE%BE%E7%BD%AE%20Fmod%20%E5%B7%A5%E7%A8%8B.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/26-4.%20VoicePack%20As%20Practice%20%E8%AF%AD%E8%A8%80%E5%8C%85%E5%AE%9E%E6%88%98.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/26-5.%20Fmod%20Profiler.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/26-6.%20Fmod%20%E9%9F%B3%E6%95%88%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/27.%20Send%20Mod%20to%20Devs%20for%20Debugging%20%E5%8F%91%E9%80%81%E8%87%B3%E6%A8%A1%E7%BB%84%E5%BC%80%E5%8F%91%E8%80%85%E6%9F%A5%E9%97%AE%E9%A2%98.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/28-1.%20Modder%20Contribution%20Plan%20%E5%85%B1%E5%88%9B%E8%BD%BD%E5%85%B7%20&amp;%20%E5%9C%B0%E5%9B%BE%E9%A1%B9%E7%9B%AE.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/28-2.%20%E4%B8%8A%E4%BC%A0%EF%BC%8C%E5%91%BD%E5%90%8D%EF%BC%8C%E7%BE%8E%E6%9C%AF%E8%A7%84%E8%8C%83.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/28-3.%20DIY%20%E5%9C%B0%E5%9B%BE%E5%B7%A5%E7%A8%8B%E5%AF%BC%E5%85%A5.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/28-4.%20%E5%9C%B0%E5%9B%BE%E5%85%B1%E5%88%9B.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/29.%20%E6%A8%A1%E7%BB%84%E8%B4%B4%E5%9B%BE%E7%BB%84.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/30.%20LRM%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.waroftanks.cn/doc/manual/tutorial/31.%20Simplygon%20LOD.html</loc>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.waroftanks.cn/doc/manual/tutorial/X.%20%E6%A8%A1%E7%BB%84%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E5%BD%92%E6%A1%A3.html</loc>
-    <lastmod>2023-11-14T03:50:23+08:00</lastmod>
+    <lastmod>2023-11-14T05:49:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

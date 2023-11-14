@@ -1069,6 +1069,11 @@
     "title": "30. LRM 服务器搭建 | Panzer War Document",
     "keywords": "30. LRM 服务器搭建 选择 Cent OS sudo rpm -Uvh https://packages.microsoft.com/config/centos/7/packages-microsoft-prod.rpm sudo yum install dotnet-sdk-5.0 cd /root/LRM-Node/ nohup dotnet LRM.dll & vi /etc/rc.local /root/runAllServer.sh >/server.log 2>&1 crontab -e 0 2 * * * /usr/sbin/reboot"
   },
+  "manual/tutorial/31. Simplygon LOD.html": {
+    "href": "manual/tutorial/31. Simplygon LOD.html",
+    "title": "Simplygon LOD | Panzer War Document",
+    "keywords": "Simplygon LOD Simplygon 是由微软开发的模型减面工具。 Install the sdk 安装 SDK You need to install the sdk provided from simplygon. And choose free license (with 200 prorcess limit per day). Download the sdk from https://www.simplygon.com/downloads 你需要安装由 Simplygon 提供的 sdk，并选择免费证书进行激活 （免费证书每天可处理 200次）你可以从官网下载 sdk https://www.simplygon.com/downloads Install the package to editor 将 Package 装到 Editor 上 Click on + and select Add package from disk ... to add this local package from Panzer War Mod folder 点击 + 选择 Add package from disk ... 从装甲纷争的模组文件夹中选择这个 json 文件 Toggle on simplygon support in editor 启用 Simplygon 支持 Then repack you vehicles. Your vehicles will use lods generated from Simplygon. 然后点击载具上的 Repack，你的载具会使用由 Simplygon 提供的 Lod 模型"
+  },
   "manual/tutorial/X. 模组开发问题归档.html": {
     "href": "manual/tutorial/X. 模组开发问题归档.html",
     "title": "X. 模组开发问题归档 | Panzer War Document",
