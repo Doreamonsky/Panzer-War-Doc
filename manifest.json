@@ -2335,7 +2335,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/tutorial/01-1. GetStarted 项目初始化.html",
-          "hash": "H80rEhZUfRfa9BWo7cmG6ThRZS58alFmMv0sUn7GQdc="
+          "hash": "zK4Nu9vS/IA54u7Oe4rEHuGWQA1rOjfvegCin7Dg9FA="
         }
       },
       "is_incremental": false,
@@ -2347,7 +2347,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/tutorial/01-2. Unity Engine Requirement Unity 引擎版本要求.html",
-          "hash": "5LiTGEtb7J2bRhis7J3PRhQZsHwucw9yTg40yJNweYo="
+          "hash": "nY73MHkwu0fn9p6olx0tGLOHFq6kP8d8Id/v8eBZ7gY="
         }
       },
       "is_incremental": false,
@@ -7848,25 +7848,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because config changed.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ConfigChanged"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 122,
-          "skipped_file_count": 0
+          "skipped_file_count": 120
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 93,
-          "skipped_file_count": 0
+          "skipped_file_count": 6
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
