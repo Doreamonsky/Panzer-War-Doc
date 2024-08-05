@@ -86,14 +86,14 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">ComponentAPI</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a>.<a class="xref" href="ShanghaiWindy.Core.API.html">API</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_API_ComponentAPI_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static class ComponentAPI</code></pre>
   </div>
   <h3 id="methods">Methods
@@ -109,7 +109,7 @@ Gets a Lua component with the specified class name on the given GameObject.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static LuaTable GetLuaComponent(GameObject target, string className)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -128,7 +128,7 @@ public static LuaTable GetLuaComponent(GameObject target, string className)</cod
         <td>目标 GameObject。</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">className</span></td>
         <td>Lua 组件的类名。</td>
       </tr>
@@ -160,7 +160,7 @@ Gets all Lua components with the specified class name on the given GameObject.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static LuaTable[] GetLuaComponents(GameObject target, string className)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -179,7 +179,7 @@ public static LuaTable[] GetLuaComponents(GameObject target, string className)</
         <td>目标 GameObject。</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">className</span></td>
         <td>Lua 组件的类名。</td>
       </tr>
@@ -211,7 +211,7 @@ Gets all Lua components with the specified class name in the children of the giv
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static LuaTable[] GetLuaComponentsInChildren(GameObject target, string className)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -230,7 +230,7 @@ public static LuaTable[] GetLuaComponentsInChildren(GameObject target, string cl
         <td>目标 GameObject。</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">className</span></td>
         <td>Lua 组件的类名。</td>
       </tr>
@@ -262,7 +262,7 @@ Gets all Lua components with the specified class name in the parent hierarchy of
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static LuaTable[] GetLuaComponentsInParent(GameObject target, string className)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -281,7 +281,7 @@ public static LuaTable[] GetLuaComponentsInParent(GameObject target, string clas
         <td>目标 GameObject。</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">className</span></td>
         <td>Lua 组件的类名。</td>
       </tr>
@@ -313,7 +313,7 @@ Gets the native component with the specified type name on the given GameObject.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static Component GetNativeComponent(GameObject target, string componentName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -332,7 +332,7 @@ public static Component GetNativeComponent(GameObject target, string componentNa
         <td>目标 GameObject。</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">componentName</span></td>
         <td>组件类型名。</td>
       </tr>
@@ -364,7 +364,7 @@ Gets all native components with the specified type name on the given GameObject.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static Component[] GetNativeComponents(GameObject target, string componentName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -383,7 +383,7 @@ public static Component[] GetNativeComponents(GameObject target, string componen
         <td>目标 GameObject。</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">componentName</span></td>
         <td>组件类型名。</td>
       </tr>
@@ -415,7 +415,7 @@ Gets all native components with the specified type name in the children of the g
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static Component[] GetNativeComponentsInChildren(GameObject target, string componentName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -434,7 +434,7 @@ public static Component[] GetNativeComponentsInChildren(GameObject target, strin
         <td>目标 GameObject。</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">componentName</span></td>
         <td>组件类型名。</td>
       </tr>
@@ -466,7 +466,7 @@ Gets all native components with the specified type name in the parent hierarchy 
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static Component[] GetNativeComponentsInParent(GameObject target, string componentName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -485,7 +485,7 @@ public static Component[] GetNativeComponentsInParent(GameObject target, string 
         <td>目标 GameObject。</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">componentName</span></td>
         <td>组件类型名。</td>
       </tr>
@@ -517,8 +517,8 @@ Find objects by component
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public static object[] GetObjectsInWorld(string componentName)</code></pre>
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public static Object[] GetObjectsInWorld(string componentName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -531,7 +531,7 @@ public static object[] GetObjectsInWorld(string componentName)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">componentName</span></td>
         <td></td>
       </tr>
@@ -547,7 +547,7 @@ public static object[] GetObjectsInWorld(string componentName)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</td>
+        <td><span class="xref">Object</span>[]</td>
         <td></td>
       </tr>
     </tbody>

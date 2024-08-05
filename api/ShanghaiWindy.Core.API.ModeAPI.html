@@ -89,14 +89,14 @@ Mode API
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">ModeAPI</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a>.<a class="xref" href="ShanghaiWindy.Core.API.html">API</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_API_ModeAPI_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static class ModeAPI</code></pre>
   </div>
   <h3 id="methods">Methods
@@ -112,7 +112,7 @@ Add battle player
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void AddBattlePlayer(AbstractBattlePlayer battlePlayer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -143,7 +143,7 @@ Add custom menu option
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void AddCustomMenuOption(string optionName, Action callback)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -157,12 +157,12 @@ public static void AddCustomMenuOption(string optionName, Action callback)</code
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">optionName</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td><span class="xref">System.Action</span></td>
         <td><span class="parametername">callback</span></td>
         <td></td>
       </tr>
@@ -179,7 +179,7 @@ Disable cheat
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void DisableCheat()</code></pre>
   </div>
 
@@ -193,7 +193,7 @@ Enable cheat
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void EnableCheat()</code></pre>
   </div>
 
@@ -207,7 +207,7 @@ Enable count down
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void EnableCountDown(int countDown, string countDownTitle, string countDownDescription, Action callback)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -221,22 +221,22 @@ public static void EnableCountDown(int countDown, string countDownTitle, string 
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">countDown</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">countDownTitle</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">countDownDescription</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td><span class="xref">System.Action</span></td>
         <td><span class="parametername">callback</span></td>
         <td></td>
       </tr>
@@ -250,7 +250,7 @@ public static void EnableCountDown(int countDown, string countDownTitle, string 
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void EndRecord()</code></pre>
   </div>
 
@@ -264,7 +264,7 @@ Exit Mode
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void ExitMode()</code></pre>
   </div>
 
@@ -278,7 +278,7 @@ Get mode instance of lua class
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static LuaTable GetModeInstance()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -298,6 +298,35 @@ public static LuaTable GetModeInstance()</code></pre>
   </table>
 
 
+  <a id="ShanghaiWindy_Core_API_ModeAPI_GetNativeMode_" data-uid="ShanghaiWindy.Core.API.ModeAPI.GetNativeMode*"></a>
+  <h4 id="ShanghaiWindy_Core_API_ModeAPI_GetNativeMode" data-uid="ShanghaiWindy.Core.API.ModeAPI.GetNativeMode">GetNativeMode()</h4>
+  <div class="markdown level1 summary">
+获取 c# 游戏模式实例
+Get the native game mode in c#
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public static BaseGameMode GetNativeMode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BaseGameMode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="ShanghaiWindy_Core_API_ModeAPI_LoadBattleScene_" data-uid="ShanghaiWindy.Core.API.ModeAPI.LoadBattleScene*"></a>
   <h4 id="ShanghaiWindy_Core_API_ModeAPI_LoadBattleScene_ShanghaiWindy_Core_MapData_OnBattleSceneLoadedDelegate_" data-uid="ShanghaiWindy.Core.API.ModeAPI.LoadBattleScene(ShanghaiWindy.Core.MapData,OnBattleSceneLoadedDelegate)">LoadBattleScene(MapData, OnBattleSceneLoadedDelegate)</h4>
   <div class="markdown level1 summary">
@@ -307,7 +336,7 @@ Load battle scene
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void LoadBattleScene(MapData mapData, OnBattleSceneLoadedDelegate callback)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -343,7 +372,7 @@ Load battle ui
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void LoadBattleUI(OnBattleUILoadedDelegate callback)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -374,7 +403,7 @@ Register capture point
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void RegisterCapturePointCallback(EventDispatcherDelegate&lt;CaptureEvent&gt; captureDelegate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -405,7 +434,7 @@ Register vehicle pick callabck
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void RegisterPickVehicleCallBack(EventDispatcherDelegate&lt;VehiclePickEvent&gt; pickDelegate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -436,7 +465,7 @@ Remove battle player
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void RemoveBattlePlayer(int uid)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -450,7 +479,7 @@ public static void RemoveBattlePlayer(int uid)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">uid</span></td>
         <td></td>
       </tr>
@@ -467,7 +496,7 @@ Remove custom menu option
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void RemoveCustomMenuOption(string optionName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -481,7 +510,7 @@ public static void RemoveCustomMenuOption(string optionName)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">optionName</span></td>
         <td></td>
       </tr>
@@ -498,7 +527,7 @@ Show pick vehicle list ui
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void ShowPickVehicleListUI(Action&lt;List&lt;string&gt;&gt; callback)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -512,7 +541,7 @@ public static void ShowPickVehicleListUI(Action&lt;List&lt;string&gt;&gt; callba
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</td>
+        <td><span class="xref">System.Action&lt;T&gt;</span>&lt;<span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;<span class="xref">string</span>&gt;&gt;</td>
         <td><span class="parametername">callback</span></td>
         <td></td>
       </tr>
@@ -529,7 +558,7 @@ Show pick vehicle ui
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void ShowPickVehicleUI(bool isForcePick)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -543,7 +572,7 @@ public static void ShowPickVehicleUI(bool isForcePick)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">isForcePick</span></td>
         <td></td>
       </tr>
@@ -560,7 +589,7 @@ Show pick vehicle ui (with list)
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void ShowPickVehicleUIWithList(bool isForcePick, List&lt;VehicleInfo&gt; vehicleList)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -574,12 +603,12 @@ public static void ShowPickVehicleUIWithList(bool isForcePick, List&lt;VehicleIn
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">isForcePick</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ShanghaiWindy.Core.VehicleInfo.html">VehicleInfo</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;<a class="xref" href="ShanghaiWindy.Core.VehicleInfo.html">VehicleInfo</a>&gt;</td>
         <td><span class="parametername">vehicleList</span></td>
         <td></td>
       </tr>
@@ -596,7 +625,7 @@ Show victory or default
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void ShowVictoryOrDefeat(bool isVictory)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -610,7 +639,7 @@ public static void ShowVictoryOrDefeat(bool isVictory)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">isVictory</span></td>
         <td></td>
       </tr>
@@ -624,7 +653,7 @@ public static void ShowVictoryOrDefeat(bool isVictory)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void StartRecord()</code></pre>
   </div>
 
@@ -638,7 +667,7 @@ Show or hide score
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void ToggleScore(bool isShownScore)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -652,7 +681,7 @@ public static void ToggleScore(bool isShownScore)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">isShownScore</span></td>
         <td></td>
       </tr>
@@ -669,7 +698,7 @@ Toggle lock vehicle state
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void ToggleVehicleLockState(bool isLock, BaseInitSystem vehicle)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -683,7 +712,7 @@ public static void ToggleVehicleLockState(bool isLock, BaseInitSystem vehicle)</
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">isLock</span></td>
         <td></td>
       </tr>
@@ -705,7 +734,7 @@ Unregister capture point
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void UnRegisterCapturePointCallback(EventDispatcherDelegate&lt;CaptureEvent&gt; captureDelegate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -736,7 +765,7 @@ UnRegister vehicle pick callabck
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void UnRegisterPickVehicleCallBack(EventDispatcherDelegate&lt;VehiclePickEvent&gt; pickDelegate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -767,7 +796,7 @@ Update score
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void UpdateScore(int friendTeamScore, int enemyTeamScore, int totalFriendTeamScore, int totalEnemyTeamScore)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -781,22 +810,22 @@ public static void UpdateScore(int friendTeamScore, int enemyTeamScore, int tota
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">friendTeamScore</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">enemyTeamScore</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">totalFriendTeamScore</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">totalEnemyTeamScore</span></td>
         <td></td>
       </tr>

@@ -89,14 +89,14 @@ Asset-related API
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">AssetAPI</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a>.<a class="xref" href="ShanghaiWindy.Core.API.html">API</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_API_AssetAPI_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static class AssetAPI</code></pre>
   </div>
   <h3 id="methods">Methods
@@ -112,22 +112,22 @@ Force resolve package
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void ForceResolvePackage()</code></pre>
   </div>
 
 
-  <a id="ShanghaiWindy_Core_API_AssetAPI_LoadAssetBundle_" data-uid="ShanghaiWindy.Core.API.AssetAPI.LoadAssetBundle*"></a>
-  <h4 id="ShanghaiWindy_Core_API_AssetAPI_LoadAssetBundle_System_String_System_String_AssetLoadedDelegate_" data-uid="ShanghaiWindy.Core.API.AssetAPI.LoadAssetBundle(System.String,System.String,AssetLoadedDelegate)">LoadAssetBundle(string, string, AssetLoadedDelegate)</h4>
+  <a id="ShanghaiWindy_Core_API_AssetAPI_InstantiateNonPoolObject_" data-uid="ShanghaiWindy.Core.API.AssetAPI.InstantiateNonPoolObject*"></a>
+  <h4 id="ShanghaiWindy_Core_API_AssetAPI_InstantiateNonPoolObject_System_String_System_String_InstantiateNonPoolObjectDelegate_" data-uid="ShanghaiWindy.Core.API.AssetAPI.InstantiateNonPoolObject(System.String,System.String,InstantiateNonPoolObjectDelegate)">InstantiateNonPoolObject(string, string, InstantiateNonPoolObjectDelegate)</h4>
   <div class="markdown level1 summary">
-（弃用）加载资源包
-（Deprecated）Load Asset Bundle
+实例化非对象池物体
+Load non-pool asset
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public static void LoadAssetBundle(string abName, string format, AssetLoadedDelegate callBack)</code></pre>
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public static void InstantiateNonPoolObject(string id, string fileName, InstantiateNonPoolObjectDelegate callBack)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -140,19 +140,19 @@ public static void LoadAssetBundle(string abName, string format, AssetLoadedDele
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">abName</span></td>
-        <td>资源包名称 Asset Bundle Name</td>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">format</span></td>
-        <td>资源包格式 Asset Bundle Format</td>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td></td>
       </tr>
       <tr>
-        <td><span class="xref">AssetLoadedDelegate</span></td>
+        <td><span class="xref">InstantiateNonPoolObjectDelegate</span></td>
         <td><span class="parametername">callBack</span></td>
-        <td>资源加载完成时的回调 Callback when the asset is loaded</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -167,7 +167,7 @@ Load asset from object pool
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void LoadPoolAsset(string id, string fileName, LoadPoolAssetDelegate callBack)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -181,12 +181,12 @@ public static void LoadPoolAsset(string id, string fileName, LoadPoolAssetDelega
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">id</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">fileName</span></td>
         <td></td>
       </tr>
@@ -208,7 +208,7 @@ Release asset to object pool
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void ReleasePoolAsset(AssetPoolRef assetPoolRef)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -239,7 +239,7 @@ Reload config
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void ReloadConfig()</code></pre>
   </div>
 </article>

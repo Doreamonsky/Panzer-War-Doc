@@ -89,14 +89,14 @@ Battle Player
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">AbstractBattlePlayer</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_AbstractBattlePlayer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public abstract class AbstractBattlePlayer</code></pre>
   </div>
   <h3 id="fields">Fields
@@ -108,7 +108,7 @@ public abstract class AbstractBattlePlayer</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public object Info</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -121,7 +121,7 @@ public object Info</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
+        <td><span class="xref">object</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -136,7 +136,7 @@ Nick name
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public string NickName</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -149,7 +149,7 @@ public string NickName</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -164,7 +164,7 @@ Uid
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public int Uid</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -177,7 +177,7 @@ public int Uid</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -192,7 +192,7 @@ Vehicle
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public BaseInitSystem Vehicle</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -220,7 +220,7 @@ Vehicle Info
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public VehicleInfo VehicleInfo</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -248,7 +248,7 @@ public VehicleInfo VehicleInfo</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public bool IsAlive { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -261,7 +261,7 @@ public bool IsAlive { get; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -277,7 +277,7 @@ On vehicle gameobject removed callback
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public UnityEvent OnGameObjectDestroyed { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -306,7 +306,7 @@ On vehicle destroyed callback
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public UnityEvent OnVehicleDestroyed { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -335,7 +335,7 @@ On vehicle loaded callback
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public UnityEvent OnVehicleLoaded { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -366,7 +366,7 @@ Create Vehicle
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public BaseInitSystem CreateVehicle(VehicleInfo vehicleInfo, Vector3 pos, Quaternion rot)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -422,7 +422,7 @@ Get Team
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public abstract TeamManager.Team GetTeam()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -451,7 +451,7 @@ Get total damaged
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public int GetTotalDamage()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -464,7 +464,7 @@ public int GetTotalDamage()</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -480,7 +480,7 @@ Get total destroyed number
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public int GetTotalDestroyed()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -493,7 +493,7 @@ public int GetTotalDestroyed()</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -506,7 +506,7 @@ public int GetTotalDestroyed()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public string GetVehicleName()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -519,7 +519,7 @@ public string GetVehicleName()</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -532,7 +532,7 @@ public string GetVehicleName()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public abstract bool IsLocalPlayer()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -545,7 +545,7 @@ public abstract bool IsLocalPlayer()</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>

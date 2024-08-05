@@ -89,9 +89,9 @@ The BaseInitSystem class is used for basic initialization of any vehicle. This c
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">BaseInitSystem</span></div>
-      <div class="level2"><a class="xref" href="ShanghaiWindy.Core.TankInitSystem.html">TankInitSystem</a></div>
+      <div class="level2"><a class="xref" href="ShanghaiWindy.Core.VehicleInitSystem.html">VehicleInitSystem</a></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -102,14 +102,14 @@ The BaseInitSystem class is used for basic initialization of any vehicle. This c
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_BaseInitSystem_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public class BaseInitSystem : MonoBehaviour, IDynamicDataPatchable, IIndex</code></pre>
   </div>
   <h3 id="fields">Fields
 </h3>
 
 
-  <h4 id="ShanghaiWindy_Core_BaseInitSystem_basePlayerState" data-uid="ShanghaiWindy.Core.BaseInitSystem.basePlayerState">basePlayerState</h4>
+  <h4 id="ShanghaiWindy_Core_BaseInitSystem_basePawn" data-uid="ShanghaiWindy.Core.BaseInitSystem.basePawn">basePawn</h4>
   <div class="markdown level1 summary">
 基础玩家状态类，用于处理玩家状态的改变，如受到伤害、击中反弹等事件。
 Base player state class for handling changes in player states such as taking damage, ricocheting hits, etc.
@@ -117,8 +117,8 @@ Base player state class for handling changes in player states such as taking dam
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public BasePlayerState basePlayerState</code></pre>
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public BasePawn basePawn</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -130,7 +130,7 @@ public BasePlayerState basePlayerState</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ShanghaiWindy.Core.BasePlayerState.html">BasePlayerState</a></td>
+        <td><a class="xref" href="ShanghaiWindy.Core.BasePawn.html">BasePawn</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -145,7 +145,7 @@ Equipment Buff Data List
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public List&lt;EquipmentBuffData&gt; equipmentBuffDataList</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -158,7 +158,7 @@ public List&lt;EquipmentBuffData&gt; equipmentBuffDataList</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">EquipmentBuffData</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;<span class="xref">EquipmentBuffData</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -173,7 +173,7 @@ public List&lt;EquipmentBuffData&gt; equipmentBuffDataList</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public bool IsDestroyed { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -186,7 +186,7 @@ public bool IsDestroyed { get; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -199,7 +199,7 @@ public bool IsDestroyed { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public bool IsLoaded { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -212,7 +212,7 @@ public bool IsLoaded { get; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -225,7 +225,7 @@ public bool IsLoaded { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public BaseInitSystem.DamagedInternalModule OnDamagedInternalModule { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -251,7 +251,7 @@ public BaseInitSystem.DamagedInternalModule OnDamagedInternalModule { get; set; 
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public UnityEvent OnGameObjectDestroyed { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -277,7 +277,7 @@ public UnityEvent OnGameObjectDestroyed { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public UnityEvent OnVehicleDestroyed { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -303,8 +303,34 @@ public UnityEvent OnVehicleDestroyed { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public UnityEvent OnVehicleLoaded { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ShanghaiWindy_Core_BaseInitSystem_OnVehiclePreLoaded_" data-uid="ShanghaiWindy.Core.BaseInitSystem.OnVehiclePreLoaded*"></a>
+  <h4 id="ShanghaiWindy_Core_BaseInitSystem_OnVehiclePreLoaded" data-uid="ShanghaiWindy.Core.BaseInitSystem.OnVehiclePreLoaded">OnVehiclePreLoaded</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public UnityEvent OnVehiclePreLoaded { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -329,7 +355,7 @@ public UnityEvent OnVehicleLoaded { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public TeamManager.Team OwnerTeam { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>

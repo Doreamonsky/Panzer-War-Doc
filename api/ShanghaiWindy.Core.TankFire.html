@@ -88,7 +88,7 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">ShanghaiWindy.Core.BaseVehicleComponent&lt;T&gt;</span>&lt;<a class="xref" href="ShanghaiWindy.Core.BaseInitSystem.html">BaseInitSystem</a>&gt;</div>
     <div class="level2"><span class="xref">ShanghaiWindy.Core.GenericVehicleComponent</span></div>
     <div class="level3"><a class="xref" href="ShanghaiWindy.Core.BaseFireSystem.html">BaseFireSystem</a></div>
@@ -98,13 +98,14 @@
     <h5>Implements</h5>
     <div><span class="xref">IIndex</span></div>
     <div><span class="xref">IDynamicDataPatchable</span></div>
+    <div><span class="xref">IPawnControlledComponent</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_TankFire_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public class TankFire : BaseFireSystem, IIndex, IDynamicDataPatchable</code></pre>
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public class TankFire : BaseFireSystem, IIndex, IDynamicDataPatchable, IPawnControlledComponent</code></pre>
   </div>
   <h3 id="fields">Fields
 </h3>
@@ -118,7 +119,7 @@ Attached Rigidbody
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Rigidbody attachedRigidbody</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -138,34 +139,6 @@ public Rigidbody attachedRigidbody</code></pre>
   </table>
 
 
-  <h4 id="ShanghaiWindy_Core_TankFire_calibratedPoint" data-uid="ShanghaiWindy.Core.TankFire.calibratedPoint">calibratedPoint</h4>
-  <div class="markdown level1 summary">
-校准点
-Calibrated Point
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public Vector3 calibratedPoint</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
   <h4 id="ShanghaiWindy_Core_TankFire_canControl" data-uid="ShanghaiWindy.Core.TankFire.canControl">canControl</h4>
   <div class="markdown level1 summary">
 是否可控制
@@ -174,7 +147,7 @@ Can Control
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public bool canControl</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -187,7 +160,7 @@ public bool canControl</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -202,7 +175,7 @@ Current Bullet ID
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public int currentBulletId</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -215,7 +188,7 @@ public int currentBulletId</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -230,7 +203,7 @@ FF Point Transform
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Transform ffPoint</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -258,7 +231,7 @@ Fire Effect Point Transform
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Transform fireEffectPoint</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -286,7 +259,7 @@ Fire Recoil Point Transform
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Transform fireRecoilPoint</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -313,7 +286,7 @@ Gun Transform
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Transform gunDym</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -341,7 +314,7 @@ Is Auto Calculate Gravity
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public bool isAutoCaclulateGravity</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -354,7 +327,7 @@ public bool isAutoCaclulateGravity</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -369,7 +342,7 @@ Is Extra Turret
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public bool isExtraTurret</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -382,7 +355,7 @@ public bool isExtraTurret</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -397,7 +370,7 @@ Is Play VFX
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public bool isPlayVFX</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -410,7 +383,7 @@ public bool isPlayVFX</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -425,7 +398,7 @@ Main Body Transform
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Transform mainBody</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -445,34 +418,6 @@ public Transform mainBody</code></pre>
   </table>
 
 
-  <h4 id="ShanghaiWindy_Core_TankFire_netType" data-uid="ShanghaiWindy.Core.TankFire.netType">netType</h4>
-  <div class="markdown level1 summary">
-网络类型
-Instance Net Type
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public InstanceNetType netType</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ShanghaiWindy.Core.InstanceNetType</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
   <h4 id="ShanghaiWindy_Core_TankFire_overrideVelocity" data-uid="ShanghaiWindy.Core.TankFire.overrideVelocity">overrideVelocity</h4>
   <div class="markdown level1 summary">
 覆盖速度
@@ -481,7 +426,7 @@ Override Velocity
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Vector3 overrideVelocity</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -509,7 +454,7 @@ Projectile Manager
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public ProjectileManager projectile</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -537,7 +482,7 @@ Use Gravity
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public bool useGravity</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -550,7 +495,7 @@ public bool useGravity</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -568,7 +513,7 @@ Bullet Count List
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public int[] bulletCountList { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -581,7 +526,7 @@ public int[] bulletCountList { get; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</td>
+        <td><span class="xref">int</span>[]</td>
         <td></td>
       </tr>
     </tbody>
@@ -597,7 +542,7 @@ Current Bullet
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public BulletData currentBullet { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -621,6 +566,9 @@ public BulletData currentBullet { get; }</code></pre>
   </div>
   <div>
       <span class="xref">IDynamicDataPatchable</span>
+  </div>
+  <div>
+      <span class="xref">IPawnControlledComponent</span>
   </div>
 </article>
           </div>

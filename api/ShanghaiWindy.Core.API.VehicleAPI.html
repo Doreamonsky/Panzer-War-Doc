@@ -89,14 +89,14 @@ Vehicle Common APIs
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">VehicleAPI</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a>.<a class="xref" href="ShanghaiWindy.Core.API.html">API</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_API_VehicleAPI_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static class VehicleAPI</code></pre>
   </div>
   <h3 id="methods">Methods
@@ -112,7 +112,7 @@ Get All Driveable Vehicle List
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static List&lt;VehicleInfo&gt; GetAllDriveableVehicleList(bool ignoreModule)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -126,7 +126,7 @@ public static List&lt;VehicleInfo&gt; GetAllDriveableVehicleList(bool ignoreModu
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">ignoreModule</span></td>
         <td>是否在模块模式下过滤非模块载具 Ignore non-module vehicles in module mode</td>
       </tr>
@@ -142,7 +142,7 @@ public static List&lt;VehicleInfo&gt; GetAllDriveableVehicleList(bool ignoreModu
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ShanghaiWindy.Core.VehicleInfo.html">VehicleInfo</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;<a class="xref" href="ShanghaiWindy.Core.VehicleInfo.html">VehicleInfo</a>&gt;</td>
         <td>可驾驶载具列表 Driveable Vehicle List</td>
       </tr>
     </tbody>
@@ -158,7 +158,7 @@ Filter Bot Vehicle
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static List&lt;VehicleInfo&gt; GetFilteredBotVehicles(int minRank, int maxRank, bool allowArtillery, VehicleInfo.Type vehicleType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -172,17 +172,17 @@ public static List&lt;VehicleInfo&gt; GetFilteredBotVehicles(int minRank, int ma
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">minRank</span></td>
         <td>最小等级 Min Rank</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">maxRank</span></td>
         <td>最大等级 Max Rank</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">allowArtillery</span></td>
         <td>允许使用火炮 Allow Artillery</td>
       </tr>
@@ -203,7 +203,7 @@ public static List&lt;VehicleInfo&gt; GetFilteredBotVehicles(int minRank, int ma
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ShanghaiWindy.Core.VehicleInfo.html">VehicleInfo</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;<a class="xref" href="ShanghaiWindy.Core.VehicleInfo.html">VehicleInfo</a>&gt;</td>
         <td>载具列表 Vehicle List</td>
       </tr>
     </tbody>
@@ -219,7 +219,7 @@ Filter Vehicle
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static List&lt;VehicleInfo&gt; GetFilteredVehicles(int minRank, int maxRank)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -233,12 +233,12 @@ public static List&lt;VehicleInfo&gt; GetFilteredVehicles(int minRank, int maxRa
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">minRank</span></td>
         <td>最小等级 Min Rank</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">maxRank</span></td>
         <td>最大等级 Max Rank</td>
       </tr>
@@ -254,7 +254,7 @@ public static List&lt;VehicleInfo&gt; GetFilteredVehicles(int minRank, int maxRa
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ShanghaiWindy.Core.VehicleInfo.html">VehicleInfo</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;<a class="xref" href="ShanghaiWindy.Core.VehicleInfo.html">VehicleInfo</a>&gt;</td>
         <td>载具列表 Vehicle List</td>
       </tr>
     </tbody>
@@ -270,7 +270,7 @@ Get all the fire system from vehicle.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static List&lt;BaseFireSystem&gt; GetFireList(BaseInitSystem vehicle)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -300,7 +300,7 @@ public static List&lt;BaseFireSystem&gt; GetFireList(BaseInitSystem vehicle)</co
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ShanghaiWindy.Core.BaseFireSystem.html">BaseFireSystem</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;<a class="xref" href="ShanghaiWindy.Core.BaseFireSystem.html">BaseFireSystem</a>&gt;</td>
         <td>火力系统数组 Array of fire system</td>
       </tr>
     </tbody>
@@ -316,7 +316,7 @@ Get the player vehicle. It can be null if player is not spawned.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static BaseInitSystem GetPlayerVehicle()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -345,7 +345,7 @@ Get vehicle info guid
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static VehicleInfo GetVehicleInfoByGuid(string guid)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -359,7 +359,7 @@ public static VehicleInfo GetVehicleInfoByGuid(string guid)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">guid</span></td>
         <td></td>
       </tr>
@@ -391,7 +391,7 @@ Get Vehicle Info
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static VehicleInfo GetVehicleInfoByName(string vehicleName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -405,7 +405,7 @@ public static VehicleInfo GetVehicleInfoByName(string vehicleName)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">vehicleName</span></td>
         <td>载具名称 Vehicle Name</td>
       </tr>
@@ -436,7 +436,7 @@ public static VehicleInfo GetVehicleInfoByName(string vehicleName)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static bool IsArmyVehicle(BaseInitSystem vehicle)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -466,7 +466,7 @@ public static bool IsArmyVehicle(BaseInitSystem vehicle)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td>返回载具是否为陆军类型 true if ArmyVehicle, false otherwise</td>
       </tr>
     </tbody>
@@ -481,7 +481,7 @@ public static bool IsArmyVehicle(BaseInitSystem vehicle)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static bool IsFlightVehicle(BaseInitSystem vehicle)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -511,7 +511,7 @@ public static bool IsFlightVehicle(BaseInitSystem vehicle)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td>返回载具是否为飞行器类型 true if FlightVehicle, false otherwise</td>
       </tr>
     </tbody>
@@ -526,7 +526,7 @@ public static bool IsFlightVehicle(BaseInitSystem vehicle)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static bool IsTankVehicle(BaseInitSystem vehicle)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -556,7 +556,7 @@ public static bool IsTankVehicle(BaseInitSystem vehicle)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td>返回载具是否为坦克类型 true if TankVehicle, false otherwise</td>
       </tr>
     </tbody>
@@ -572,7 +572,7 @@ public static bool IsTankVehicle(BaseInitSystem vehicle)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void LoadVehicleThumbnail(VehicleInfo vehicleInfo, OnVehicleThumbnailLoadedDelegate callback)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -608,7 +608,7 @@ Register an event dispatched when vehicle fired.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void RegisterBulletFiredEvent(BaseInitSystem vehicle, int index, OnFiredDelegate tankFiredDelegate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -627,7 +627,7 @@ public static void RegisterBulletFiredEvent(BaseInitSystem vehicle, int index, O
         <td>目标载具 Target vehicle</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">index</span></td>
         <td>火炮序号 Fire index</td>
       </tr>
@@ -649,7 +649,7 @@ Register an event dispatched when vehicle destroyed.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void RegisterVehicleDestroyedEvent(BaseInitSystem vehicle, OnVehicleDestroyedDelegate vehicleDestroyedDelegate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -685,7 +685,7 @@ Register an event dispatched when vehicle gamobject destroyed.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void RegisterVehicleGameObjectDestroyedEvent(BaseInitSystem vehicle, OnVehicleRemovedDelegate vehicleGameObjectDestroyed)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -721,7 +721,7 @@ Register an event dispatched when vehicle loaded.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void RegisterVehicleLoadedEvent(BaseInitSystem vehicle, OnVehicleLoadedDelegate vehicleLoadedDelegate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -757,7 +757,7 @@ Try get army vehicle from target gameobject.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static bool TryGetArmyInitSystemFromGameObject(GameObject gameObject, out ArmyInitSystem armyInitSystem)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -792,7 +792,7 @@ public static bool TryGetArmyInitSystemFromGameObject(GameObject gameObject, out
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td>是否为步兵载具 Is army</td>
       </tr>
     </tbody>
@@ -808,7 +808,7 @@ Try get vehicle from target gameobject.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static bool TryGetBaseInitSystemFromGameObject(GameObject gameObject, out BaseInitSystem baseInitSystem)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -843,7 +843,7 @@ public static bool TryGetBaseInitSystemFromGameObject(GameObject gameObject, out
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -859,7 +859,7 @@ Try get flight vehicle from target gameobject.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static bool TryGetFlightInitSystemFromGameObject(GameObject gameObject, out FlightInitSystem flightInitSystem)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -894,7 +894,7 @@ public static bool TryGetFlightInitSystemFromGameObject(GameObject gameObject, o
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td>是否为飞行载具 Is flight</td>
       </tr>
     </tbody>
@@ -902,7 +902,7 @@ public static bool TryGetFlightInitSystemFromGameObject(GameObject gameObject, o
 
 
   <a id="ShanghaiWindy_Core_API_VehicleAPI_TryGetTankInitSystemFromGameObject_" data-uid="ShanghaiWindy.Core.API.VehicleAPI.TryGetTankInitSystemFromGameObject*"></a>
-  <h4 id="ShanghaiWindy_Core_API_VehicleAPI_TryGetTankInitSystemFromGameObject_GameObject_ShanghaiWindy_Core_TankInitSystem__" data-uid="ShanghaiWindy.Core.API.VehicleAPI.TryGetTankInitSystemFromGameObject(GameObject,ShanghaiWindy.Core.TankInitSystem@)">TryGetTankInitSystemFromGameObject(GameObject, out TankInitSystem)</h4>
+  <h4 id="ShanghaiWindy_Core_API_VehicleAPI_TryGetTankInitSystemFromGameObject_GameObject_ShanghaiWindy_Core_VehicleInitSystem__" data-uid="ShanghaiWindy.Core.API.VehicleAPI.TryGetTankInitSystemFromGameObject(GameObject,ShanghaiWindy.Core.VehicleInitSystem@)">TryGetTankInitSystemFromGameObject(GameObject, out VehicleInitSystem)</h4>
   <div class="markdown level1 summary">
 尝试从目标游戏对象中获取坦克载具。
 Try get tank vehicle from target gameobject.
@@ -910,8 +910,8 @@ Try get tank vehicle from target gameobject.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public static bool TryGetTankInitSystemFromGameObject(GameObject gameObject, out TankInitSystem tankInitSystem)</code></pre>
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public static bool TryGetTankInitSystemFromGameObject(GameObject gameObject, out VehicleInitSystem vehicleInitSystem)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -929,8 +929,8 @@ public static bool TryGetTankInitSystemFromGameObject(GameObject gameObject, out
         <td>目标游戏对象 Target gameobject</td>
       </tr>
       <tr>
-        <td><a class="xref" href="ShanghaiWindy.Core.TankInitSystem.html">TankInitSystem</a></td>
-        <td><span class="parametername">tankInitSystem</span></td>
+        <td><a class="xref" href="ShanghaiWindy.Core.VehicleInitSystem.html">VehicleInitSystem</a></td>
+        <td><span class="parametername">vehicleInitSystem</span></td>
         <td>坦克 Tank</td>
       </tr>
     </tbody>
@@ -945,7 +945,7 @@ public static bool TryGetTankInitSystemFromGameObject(GameObject gameObject, out
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td>是否为坦克载具 Is tank vehicle</td>
       </tr>
     </tbody>
@@ -961,7 +961,7 @@ UnRegister an event dispatched when vehicle fired.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void UnRegisterBulletFiredEvent(BaseInitSystem vehicle, int index, OnFiredDelegate tankFiredDelegate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -980,7 +980,7 @@ public static void UnRegisterBulletFiredEvent(BaseInitSystem vehicle, int index,
         <td>目标载具 Target vehicle</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">index</span></td>
         <td>火炮序号 Fire index</td>
       </tr>
@@ -1002,7 +1002,7 @@ Unregister an event dispatched when vehicle destroyed.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void UnRegisterVehicleDestroyedEvent(BaseInitSystem vehicle, OnVehicleDestroyedDelegate vehicleDestroyedDelegate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1038,7 +1038,7 @@ Unregister an event dispatched when vehicle gamobject destroyed.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void UnRegisterVehicleGameObjectDestroyedEvent(BaseInitSystem vehicle, OnVehicleRemovedDelegate vehicleGameObjectDestroyed)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1074,7 +1074,7 @@ Unregister an event dispatched when vehicle loaded.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void UnRegisterVehicleLoaedEvent(BaseInitSystem vehicle, OnVehicleLoadedDelegate vehicleLoadedDelegate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

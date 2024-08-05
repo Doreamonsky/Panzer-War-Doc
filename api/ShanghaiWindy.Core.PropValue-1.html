@@ -89,15 +89,14 @@ Generic property value class, used for handling event notifications when propert
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">PropValue&lt;T&gt;</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_PropValue_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public class PropValue&lt;T&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
@@ -127,20 +126,7 @@ public class PropValue&lt;T&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public PropValue()</code></pre>
-  </div>
-
-
-  <a id="ShanghaiWindy_Core_PropValue_1__ctor_" data-uid="ShanghaiWindy.Core.PropValue`1.#ctor*"></a>
-  <h4 id="ShanghaiWindy_Core_PropValue_1__ctor" data-uid="ShanghaiWindy.Core.PropValue`1.#ctor">PropValue()</h4>
-  <div class="markdown level1 summary">
-默认构造函数。Default constructor.
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public PropValue()</code></pre>
   </div>
 
@@ -153,37 +139,7 @@ public PropValue()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public PropValue(T init)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">init</span></td>
-        <td>初始化值。The initial value.</td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="ShanghaiWindy_Core_PropValue_1__ctor_" data-uid="ShanghaiWindy.Core.PropValue`1.#ctor*"></a>
-  <h4 id="ShanghaiWindy_Core_PropValue_1__ctor__0_" data-uid="ShanghaiWindy.Core.PropValue`1.#ctor(`0)">PropValue(T)</h4>
-  <div class="markdown level1 summary">
-使用初始值构造 PropValue。Constructs a PropValue using the provided initial value.
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public PropValue(T init)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -215,35 +171,7 @@ public PropValue(T init)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public T Get()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td>属性值。The property value.</td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="ShanghaiWindy_Core_PropValue_1_Get_" data-uid="ShanghaiWindy.Core.PropValue`1.Get*"></a>
-  <h4 id="ShanghaiWindy_Core_PropValue_1_Get" data-uid="ShanghaiWindy.Core.PropValue`1.Get">Get()</h4>
-  <div class="markdown level1 summary">
-获取属性值。Gets the property value.
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public T Get()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -271,37 +199,7 @@ public T Get()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public void Set(T val)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">val</span></td>
-        <td>新值。The new value.</td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="ShanghaiWindy_Core_PropValue_1_Set_" data-uid="ShanghaiWindy.Core.PropValue`1.Set*"></a>
-  <h4 id="ShanghaiWindy_Core_PropValue_1_Set__0_" data-uid="ShanghaiWindy.Core.PropValue`1.Set(`0)">Set(T)</h4>
-  <div class="markdown level1 summary">
-设置属性值，并在值发生变化时触发 OnValueChanged 事件。Sets the property value and triggers the OnValueChanged event when the value changes.
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public void Set(T val)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -332,7 +230,7 @@ public void Set(T val)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public event Action&lt;T, T&gt; OnValueChanged</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
@@ -345,34 +243,7 @@ public event Action&lt;T, T&gt; OnValueChanged</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;T, T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <h4 id="ShanghaiWindy_Core_PropValue_1_OnValueChanged" data-uid="ShanghaiWindy.Core.PropValue`1.OnValueChanged">OnValueChanged</h4>
-  <div class="markdown level1 summary">
-当属性值变化时触发的事件，传入旧值和新值。Event triggered when the property value changes, taking the old and new values as arguments.
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public event Action&lt;T, T&gt; OnValueChanged</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;T, T&gt;</td>
+        <td><span class="xref">Action&lt;, &gt;</span>&lt;T, T&gt;</td>
         <td></td>
       </tr>
     </tbody>

@@ -89,14 +89,14 @@ Custom Option UI
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">CustomOptionUIAPI</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a>.<a class="xref" href="ShanghaiWindy.Core.API.html">API</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_API_CustomOptionUIAPI_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static class CustomOptionUIAPI</code></pre>
   </div>
   <h3 id="methods">Methods
@@ -112,7 +112,7 @@ Add Button
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void AddButton(string optionName, string buttonName, Action onValueChanged)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -126,17 +126,17 @@ public static void AddButton(string optionName, string buttonName, Action onValu
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">optionName</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">buttonName</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td><span class="xref">System.Action</span></td>
         <td><span class="parametername">onValueChanged</span></td>
         <td></td>
       </tr>
@@ -153,7 +153,7 @@ Add option
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void AddOption(string optionName, string defaultValue, string[] options, Action&lt;string&gt; onValueChanged)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -167,22 +167,22 @@ public static void AddOption(string optionName, string defaultValue, string[] op
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">optionName</span></td>
         <td>选项名称 Option Name</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">defaultValue</span></td>
         <td>默认值 Default Value</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
+        <td><span class="xref">string</span>[]</td>
         <td><span class="parametername">options</span></td>
         <td>选项 Options</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
+        <td><span class="xref">System.Action&lt;T&gt;</span>&lt;<span class="xref">string</span>&gt;</td>
         <td><span class="parametername">onValueChanged</span></td>
         <td>值变化 OnValueChanged</td>
       </tr>
@@ -199,7 +199,7 @@ Add Slider
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void AddSlider(string optionName, float defaultValue, float minVal, float maxVal, bool isWholeNumbers, Action&lt;float&gt; onValueChanged)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -213,32 +213,32 @@ public static void AddSlider(string optionName, float defaultValue, float minVal
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">optionName</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="xref">float</span></td>
         <td><span class="parametername">defaultValue</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="xref">float</span></td>
         <td><span class="parametername">minVal</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="xref">float</span></td>
         <td><span class="parametername">maxVal</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">isWholeNumbers</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</td>
+        <td><span class="xref">System.Action&lt;T&gt;</span>&lt;<span class="xref">float</span>&gt;</td>
         <td><span class="parametername">onValueChanged</span></td>
         <td></td>
       </tr>
@@ -255,7 +255,7 @@ Add text
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void AddTextField(string optionName, Action&lt;string&gt; onInputChanged)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -269,12 +269,12 @@ public static void AddTextField(string optionName, Action&lt;string&gt; onInputC
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">optionName</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
+        <td><span class="xref">System.Action&lt;T&gt;</span>&lt;<span class="xref">string</span>&gt;</td>
         <td><span class="parametername">onInputChanged</span></td>
         <td></td>
       </tr>
@@ -291,7 +291,7 @@ Add Title
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void AddTitle(string optionName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -305,7 +305,7 @@ public static void AddTitle(string optionName)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">optionName</span></td>
         <td></td>
       </tr>
@@ -322,7 +322,7 @@ Clear Options
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void ClearOptions()</code></pre>
   </div>
 
@@ -336,7 +336,7 @@ Toggle Option UI
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void ToggleUI(bool state)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -350,7 +350,7 @@ public static void ToggleUI(bool state)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">state</span></td>
         <td></td>
       </tr>

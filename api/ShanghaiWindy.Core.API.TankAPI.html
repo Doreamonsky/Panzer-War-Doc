@@ -89,14 +89,14 @@ Tank-related API
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">TankAPI</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a>.<a class="xref" href="ShanghaiWindy.Core.API.html">API</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_API_TankAPI_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static class TankAPI</code></pre>
   </div>
   <h3 id="methods">Methods
@@ -104,7 +104,7 @@ public static class TankAPI</code></pre>
 
 
   <a id="ShanghaiWindy_Core_API_TankAPI_GetTankFireList_" data-uid="ShanghaiWindy.Core.API.TankAPI.GetTankFireList*"></a>
-  <h4 id="ShanghaiWindy_Core_API_TankAPI_GetTankFireList_ShanghaiWindy_Core_TankInitSystem_" data-uid="ShanghaiWindy.Core.API.TankAPI.GetTankFireList(ShanghaiWindy.Core.TankInitSystem)">GetTankFireList(TankInitSystem)</h4>
+  <h4 id="ShanghaiWindy_Core_API_TankAPI_GetTankFireList_ShanghaiWindy_Core_VehicleInitSystem_" data-uid="ShanghaiWindy.Core.API.TankAPI.GetTankFireList(ShanghaiWindy.Core.VehicleInitSystem)">GetTankFireList(VehicleInitSystem)</h4>
   <div class="markdown level1 summary">
 从坦克载具中获取所有坦克火力系统。
 Get all the tank fire systems from the tank vehicle.
@@ -112,8 +112,8 @@ Get all the tank fire systems from the tank vehicle.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public static List&lt;TankFire&gt; GetTankFireList(TankInitSystem vehicle)</code></pre>
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public static List&lt;TankFire&gt; GetTankFireList(VehicleInitSystem vehicle)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,7 +126,7 @@ public static List&lt;TankFire&gt; GetTankFireList(TankInitSystem vehicle)</code
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ShanghaiWindy.Core.TankInitSystem.html">TankInitSystem</a></td>
+        <td><a class="xref" href="ShanghaiWindy.Core.VehicleInitSystem.html">VehicleInitSystem</a></td>
         <td><span class="parametername">vehicle</span></td>
         <td>目标坦克载具 Target tank vehicle</td>
       </tr>
@@ -142,7 +142,7 @@ public static List&lt;TankFire&gt; GetTankFireList(TankInitSystem vehicle)</code
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ShanghaiWindy.Core.TankFire.html">TankFire</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;<a class="xref" href="ShanghaiWindy.Core.TankFire.html">TankFire</a>&gt;</td>
         <td>坦克火力系统列表 List of tank fire systems</td>
       </tr>
     </tbody>

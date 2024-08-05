@@ -86,19 +86,49 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">VehicleInfo</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IHandleLoadedBundleInfo</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_VehicleInfo_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-[Migratable]
-public class VehicleInfo : ScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+[MigratableAttribute]
+public class VehicleInfo : ScriptableObject, IHandleLoadedBundleInfo</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
+
+
+  <a id="ShanghaiWindy_Core_VehicleInfo_GetDescription_" data-uid="ShanghaiWindy.Core.VehicleInfo.GetDescription*"></a>
+  <h4 id="ShanghaiWindy_Core_VehicleInfo_GetDescription" data-uid="ShanghaiWindy.Core.VehicleInfo.GetDescription">GetDescription()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public virtual string GetDescription()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="ShanghaiWindy_Core_VehicleInfo_GetDisplayName_" data-uid="ShanghaiWindy.Core.VehicleInfo.GetDisplayName*"></a>
@@ -107,7 +137,7 @@ public class VehicleInfo : ScriptableObject</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public virtual string GetDisplayName()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -120,7 +150,33 @@ public virtual string GetDisplayName()</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ShanghaiWindy_Core_VehicleInfo_GetLoadGUID_" data-uid="ShanghaiWindy.Core.VehicleInfo.GetLoadGUID*"></a>
+  <h4 id="ShanghaiWindy_Core_VehicleInfo_GetLoadGUID" data-uid="ShanghaiWindy.Core.VehicleInfo.GetLoadGUID">GetLoadGUID()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public virtual string GetLoadGUID()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -133,7 +189,7 @@ public virtual string GetDisplayName()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public virtual int GetRank()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -146,7 +202,7 @@ public virtual int GetRank()</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -159,7 +215,7 @@ public virtual int GetRank()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public int GetRepairCost(bool isMultiplayer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -173,7 +229,7 @@ public int GetRepairCost(bool isMultiplayer)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">isMultiplayer</span></td>
         <td></td>
       </tr>
@@ -189,7 +245,7 @@ public int GetRepairCost(bool isMultiplayer)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -202,7 +258,7 @@ public int GetRepairCost(bool isMultiplayer)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public int GetResearchExp()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -215,33 +271,7 @@ public int GetResearchExp()</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="ShanghaiWindy_Core_VehicleInfo_GetUUID_" data-uid="ShanghaiWindy.Core.VehicleInfo.GetUUID*"></a>
-  <h4 id="ShanghaiWindy_Core_VehicleInfo_GetUUID" data-uid="ShanghaiWindy.Core.VehicleInfo.GetUUID">GetUUID()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public virtual string GetUUID()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">int</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -254,7 +284,7 @@ public virtual string GetUUID()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public virtual string GetVehicleName()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -267,7 +297,7 @@ public virtual string GetVehicleName()</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -280,7 +310,7 @@ public virtual string GetVehicleName()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public bool IsResearched()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -293,7 +323,7 @@ public bool IsResearched()</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -306,7 +336,7 @@ public bool IsResearched()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public virtual bool IsSupportModuleMode()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -319,11 +349,15 @@ public virtual bool IsSupportModuleMode()</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IHandleLoadedBundleInfo</span>
+  </div>
 </article>
           </div>
 

@@ -24,11 +24,95 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Frontend.Runtime.Impl.GameImpl.Battle.AbstractNetBattleGameMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Frontend.Runtime.Impl.GameImpl.Battle.AbstractNetBattleGameMode.html",
+          "hash": "3BYuOGu3xvA67Vom9HCr5MmarDuYam+p4OpBbWv24Ro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Frontend.Runtime.Impl.GameImpl.Battle.Mode.CaptureZoneNetGameMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Frontend.Runtime.Impl.GameImpl.Battle.Mode.CaptureZoneNetGameMode.html",
+          "hash": "ID58FVWVZ7ubHj7LDp8o2V2G/hkv8aLtKtS1aZ621R4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Frontend.Runtime.Impl.GameImpl.Battle.Mode.ReplayNetGameMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Frontend.Runtime.Impl.GameImpl.Battle.Mode.ReplayNetGameMode.html",
+          "hash": "rzdp6ckkilXEalXMEWdzlypSCb06jIw8XulPGXpAvj4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Frontend.Runtime.Impl.GameImpl.Battle.Mode.StandardWarNetGameMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Frontend.Runtime.Impl.GameImpl.Battle.Mode.StandardWarNetGameMode.html",
+          "hash": "wfVtSnYcgTulZvxRltZE2C3DeM0iaZU9lRFkxsGc2wQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Frontend.Runtime.Impl.GameImpl.Battle.Mode.TotalWarNetGameMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Frontend.Runtime.Impl.GameImpl.Battle.Mode.TotalWarNetGameMode.html",
+          "hash": "syf+cynL4+rFG9Ap+mLA4raVpNRiG0Cc/k5pgPGOjkY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Frontend.Runtime.Impl.GameImpl.Battle.Mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Frontend.Runtime.Impl.GameImpl.Battle.Mode.html",
+          "hash": "Y9q8Rn1cZ1nov39/AOnPAVxRByRXnj1gtYbBerqFnDU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Frontend.Runtime.Impl.GameImpl.Battle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Frontend.Runtime.Impl.GameImpl.Battle.html",
+          "hash": "tziyO343ntmByutvUukJiOX1Fic6arm+jW5icPLEccE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ShanghaiWindy.Core.API.ArmyAPI.yml",
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.ArmyAPI.html",
-          "hash": "UBzrG6b1AywWKUV9b14vW0jk2RsIF9/cTLTsZ01Ktc8="
+          "hash": "vc49IgzJVZ+HuIDp+bGwVRJRSwG0/ep01l69HfT2GeY="
         }
       },
       "is_incremental": false,
@@ -40,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.AssetAPI.html",
-          "hash": "rLqeJ5HL5PxSVx3V2zqJKwZLlChyTS6EIlVqgc5uoeI="
+          "hash": "WRY7UvcukF8FuyBNfRnzpSiN/4yqC9YJwNN7J3CIwnM="
         }
       },
       "is_incremental": false,
@@ -52,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.BattlePlayerAPI.html",
-          "hash": "y/UYj6/MvG423vM+FKAEApqpAIO1GPSu6hL674b315Q="
+          "hash": "d1wGhLR6d+NIGVM3RnN7TZr+ZLNZbcFp5rUdiXPFGCc="
         }
       },
       "is_incremental": false,
@@ -64,7 +148,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.BotAPI.html",
-          "hash": "qbjpeaRDEeoW+49Mep6EwV7EltmK/Wh35bq/aeatHZs="
+          "hash": "KNRIZkq6b/uxibjUEvS41rcJYnm54Ezhxy4lV1nUZ8A="
         }
       },
       "is_incremental": false,
@@ -76,7 +160,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.BuffAPI.html",
-          "hash": "KhDK4VUqO9xzbV2Bd+wVRp9y5yRxG3+YaZ4Dbbm8yus="
+          "hash": "bgQi3R3SQ8B8N2MN0Q0MGh1XGt0zeI+Nqy9yjbpTtc4="
         }
       },
       "is_incremental": false,
@@ -88,7 +172,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.CameraAPI.html",
-          "hash": "4OIgSh3Dp9OmPUDLaQNK+axR7wL9qwJO7KQu5gHTvYQ="
+          "hash": "WRArOvDeux6st3ywmel6G6TxCg8ew/rBe3ArJnWv0+c="
         }
       },
       "is_incremental": false,
@@ -100,7 +184,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.CaptureZoneAPI.html",
-          "hash": "z4UjefvY4fb/pdOWqkhcpItJboGRyI2dWKBoU92+MTE="
+          "hash": "nMZVARpaDgmU9PctLPH9oksaTBa9/s/kNCmQOGpc4ho="
         }
       },
       "is_incremental": false,
@@ -112,7 +196,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.ColorAPI.html",
-          "hash": "0luOx3ngnZG43JeX4vaxU2ee5xF7lfeEeOR6nWRqPRU="
+          "hash": "I10sh5o+DJMbNJNHI7lVEntYMKv2C1rg8AnA124mVG8="
         }
       },
       "is_incremental": false,
@@ -124,7 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.ComponentAPI.html",
-          "hash": "4RypFt886Guw5jCCACADzc/nF0z1CE1XKWlR52oJ2jQ="
+          "hash": "Wb4hsm3qTAXQzWphvLARWTtsHTqRGiMEm/2R9/oGpz8="
         }
       },
       "is_incremental": false,
@@ -136,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.ConfigAPI.html",
-          "hash": "+T/W4cYQB8Az0FYAkJYqxty4EfOnBzMAm6J3b5i/y+E="
+          "hash": "uDZEQXUxU/l+KVPS3X52rEKA3ou2+ElEfAe42zzFZGU="
         }
       },
       "is_incremental": false,
@@ -148,7 +232,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.ConvertAPI.html",
-          "hash": "+HMRvQKL7XRpAnVloSRR0+Oc9IoX7Llc9Ayy2tHwdeg="
+          "hash": "oM/7W+Q0/RYdnnLo8pHvfePM/gXRsk9C0jNzNcWoej0="
         }
       },
       "is_incremental": false,
@@ -160,7 +244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.CustomOptionUIAPI.html",
-          "hash": "NuYbRfH4fce+0v+Q4hh5YWmXtkx+juI6voH+eF44IAg="
+          "hash": "mI31pqpTRUsg25J5xkMRWo/DMe1vr2SiMEkhyldxLhc="
         }
       },
       "is_incremental": false,
@@ -172,7 +256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.FlightAPI.html",
-          "hash": "m9IdNWRgkWKQJQElr62M5mgKnw4tuEMS4wcUsWeynWk="
+          "hash": "TrIQoLjWoXn6Rs22ZO8mLcaNQ4NSWKOh7EjWg2GWH7Y="
         }
       },
       "is_incremental": false,
@@ -184,7 +268,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.FontAPI.html",
-          "hash": "gB0QwoIQ4yoyHIdkRCkkj4xnZYcbWugARXnBvxXhZik="
+          "hash": "NjAbCZQUYJm1g2XXPgAcZqmO7DnUJcZF9zFJBWACDdg="
         }
       },
       "is_incremental": false,
@@ -196,7 +280,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.GameAPI.html",
-          "hash": "dhuRKjUDyxkCqsWa7i5Lsno3+dAuryufo4N5XlVKryg="
+          "hash": "7dTZ62LAh8V8unEkuG7R9Q9/g0UwJbeTRZ+fMX/PQbg="
         }
       },
       "is_incremental": false,
@@ -208,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.GameObjectAPI.html",
-          "hash": "H5Ld0ORP9/e9YxEZDWq2bBy1ML9zKbvfbygRKY2P+Xo="
+          "hash": "GxQ5P1Q61ZON6BXRfyLaRN9FGaO4Nze3cABKohvgxi0="
         }
       },
       "is_incremental": false,
@@ -220,7 +304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.InputAPI.html",
-          "hash": "39dyH6Mp1QxJG81VOruNeY+j1u0XxCOG39ZMbe7krpg="
+          "hash": "qCUFoANKELZ5FQO3IQY1TKVENbk+8qsEwSqBSyU/X3k="
         }
       },
       "is_incremental": false,
@@ -232,7 +316,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.MapAPI.html",
-          "hash": "5fcI/ZvCuGD1ESK1iIsOOjDXoMur9TD+dFIuCX/5/MI="
+          "hash": "zANpr/SBmYE9nMTzCBCp3C4VYZ6WQbpaT7xzUqnuZfw="
         }
       },
       "is_incremental": false,
@@ -244,7 +328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.MaterialAPI.html",
-          "hash": "/lA5n8uBeITYgFhwOLWKRPsLXdvxlo/lbyMYijZCAgg="
+          "hash": "5+v0tmiurzfGd1Pemc1RKyAbH+8YY7X2Ukf1+Ulcsv4="
         }
       },
       "is_incremental": false,
@@ -256,7 +340,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.MeshAPI.html",
-          "hash": "gpqtiAn+6HRJTc3F6nX/u8BjdQJPZjnucuMQkuPOt5E="
+          "hash": "IgdZ1I9J1imzho14KAeIT6riykYlqFYfMTKG23k5KNE="
         }
       },
       "is_incremental": false,
@@ -268,7 +352,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.ModeAPI.html",
-          "hash": "XJ4zrjEZsJz1jINIlb2xnSOJY9uDXLbNxRIQbf2IC+Y="
+          "hash": "EmYF1CtZTQMVC0mkCxFlPRkAXIsL36vm8nuLpqi82FA="
         }
       },
       "is_incremental": false,
@@ -280,7 +364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.PointAPI.html",
-          "hash": "TXeYB6rn9m57CIxvWLln5cqJoH4bbEPzhvKh2vip+rQ="
+          "hash": "FL8EyZSSqiSvJ5yONS7tuYsd7lZ1qgpicesq+xj7ooU="
         }
       },
       "is_incremental": false,
@@ -292,7 +376,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.RandomAPI.html",
-          "hash": "fubzv3t0q2OE0bg0+MFVNISFJD5m13xiykjt5JkE814="
+          "hash": "Gg90bPORzGfjF5OVkk+vh62eZqeA0yVSnYf6/273ybk="
         }
       },
       "is_incremental": false,
@@ -304,7 +388,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.SoundAPI.html",
-          "hash": "vXMQAFWx8ehtKenEHC4EDM/lS+OTo+1oZtbGrcNUSJI="
+          "hash": "+jmlWNvRmu1yC4KaiuT+lzgGttrFIAPv0CbYpUonY2E="
         }
       },
       "is_incremental": false,
@@ -316,7 +400,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.SpawnAPI.html",
-          "hash": "WCYziAEa1i3wZ+PlVbccCIWzFH0jtqFRzBGooFTROFQ="
+          "hash": "dsvVoCvJsZX25KwJ8MjQz3oJ/tBLukXSQZV+NmBE7fw="
         }
       },
       "is_incremental": false,
@@ -328,7 +412,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.SpawnVehicleAPI.html",
-          "hash": "j6h9Ggy8XWzBObtswhsnKpEptmWX9de5z5qN3yAyleA="
+          "hash": "BUT1a7yUS7QBQq/m8pEz1CGx2YFJEulmQvhdFdIyJAY="
         }
       },
       "is_incremental": false,
@@ -340,7 +424,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.StorageAPI.html",
-          "hash": "Fw0hVZfl5+RZr3aZFLEqohRFgniskdEeQCqDNe66Qjg="
+          "hash": "U7Y9MtLsJuu0DKtSR7E5COsctTA5HZSXyovMWkgOKFE="
         }
       },
       "is_incremental": false,
@@ -352,7 +436,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.TankAPI.html",
-          "hash": "7PbdMSaPCeD9YpjUgGy/a5zz5G8gUStgg2UAenLbees="
+          "hash": "ja5ALDCfaXoLDvI+xviE6yJEOqIFMgC3653t84Antes="
         }
       },
       "is_incremental": false,
@@ -364,7 +448,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.TeamAPI.html",
-          "hash": "f2HgawH+U7KmLV6bWTR1trR9DpXzbuZhMW+hUaIIq2I="
+          "hash": "AeAFwS9B2TilXN7yW0g5TStX8gXs3kOgFgMomueo45Q="
         }
       },
       "is_incremental": false,
@@ -376,7 +460,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.TimeAPI.html",
-          "hash": "So8Ny3LbsFC+NkMLntNq6uFf+WxpxVbpLRp7nvppDec="
+          "hash": "j4wP3J09ZDKvpgbdmF0mZuS+M8X6X/2IHkozHZweF0A="
         }
       },
       "is_incremental": false,
@@ -388,7 +472,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.TransformAPI.html",
-          "hash": "UpJJ9XS0pFYBfJyGFGbVLZMSBm2DbyB16s+reDiXWRU="
+          "hash": "nd7oqJyfCfJGLb0em4IcabrNrlyWThNWrSMkCraDT+I="
         }
       },
       "is_incremental": false,
@@ -400,7 +484,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.UIAPI.html",
-          "hash": "A+XFR4WyUJiU0D7a7rOy+H7fxHec5aVRV3TJBzYSXTI="
+          "hash": "gvce5TMOr30Hjph9q5n2oXtkEDcIGZLfoLHnDA1Eod4="
         }
       },
       "is_incremental": false,
@@ -412,7 +496,31 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.VehicleAPI.html",
-          "hash": "8hyQSoAw0uU02ZU0Rrs/h3m7oLbzaQ3pYgL5s+BJObs="
+          "hash": "9SGyvyczqRGh9ckXkz9qaGnzIRv2RW7iHvcfw2Q3B3Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShanghaiWindy.Core.API.eDefaultButtonInputType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShanghaiWindy.Core.API.eDefaultButtonInputType.html",
+          "hash": "q6LKE5mtFzjjMXblhZBlz7x9czh//dtsJNSEucneXVc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShanghaiWindy.Core.API.eDefaultValueInputType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShanghaiWindy.Core.API.eDefaultValueInputType.html",
+          "hash": "euPk7MU0DV73pWvxZ4KQ57FT8yK7o5L1TG6LL8SUoSc="
         }
       },
       "is_incremental": false,
@@ -424,7 +532,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.API.html",
-          "hash": "wDhDLkXyBMUaG6chXTQXOgz5as/TzXvLU2wZKoSflKY="
+          "hash": "78UG+v8eJGYI6exhmXRp2apspmbuS49aUl/+6Pui/nY="
         }
       },
       "is_incremental": false,
@@ -436,7 +544,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.AbstractBattlePlayer.html",
-          "hash": "7ab6Y9WgbpJC9WmlINHe+4stjo/g836ir0Gl5wWS2pk="
+          "hash": "E9DFQhQpS8H0kfAqstZaD+hj9sYbmKrFBDYw4tostwA="
         }
       },
       "is_incremental": false,
@@ -448,7 +556,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.BaseFireSystem.html",
-          "hash": "jLG4iKgxTwnBS4kfaKzv5rGw+etgTiQR5CUPp4SddAs="
+          "hash": "YOXkkAg7p+Lt6SMVzdrn4FXJKR8bTDLt3K0zr7YOISc="
         }
       },
       "is_incremental": false,
@@ -460,7 +568,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.BaseInitSystem.html",
-          "hash": "NQD0rQdqEo8bRoRCxwA4MPod0kobW4s2su2aXGbQ0sw="
+          "hash": "nVKZWCkoA0xjpJKx3SpFrdPeprBW1bs3l5Xx5C40+os="
         }
       },
       "is_incremental": false,
@@ -468,11 +576,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ShanghaiWindy.Core.BasePlayerState.yml",
+      "source_relative_path": "api/ShanghaiWindy.Core.BasePawn.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ShanghaiWindy.Core.BasePlayerState.html",
-          "hash": "fvQKckRcX/rv4nADqnUMGOvrdPNGCMXqCk7+KN52mOI="
+          "relative_path": "api/ShanghaiWindy.Core.BasePawn.html",
+          "hash": "SuKMychJUS73gCcZqcTjYiXPiVspu1UkZKhAkIkgGSI="
         }
       },
       "is_incremental": false,
@@ -484,7 +592,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.CaptureZoneInfo.html",
-          "hash": "YbD0vQKM21QDrq7/rNYCwnlxTPXTegqcZvnkrbL3c4o="
+          "hash": "RST9HB6pVzBAeSR2b/EO6HfI5VWcOt+V7uu7UTau5HY="
         }
       },
       "is_incremental": false,
@@ -496,7 +604,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.CaptureZoneTask.html",
-          "hash": "7UDl2CMAUqbSvSFMuGGwU2VkEQoYXwqnIhEyuYMN7JE="
+          "hash": "/EaFxadVtGNkjrbS33G8p77Mf0ai5ETU2qUkxBovje8="
         }
       },
       "is_incremental": false,
@@ -508,7 +616,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Data.BulletFiredInfo.html",
-          "hash": "5lLQ3g7bWujC+Nny3v7hY5pBCoU+Axj/9H4qDYzD0mQ="
+          "hash": "MzY+Cy1o9coy9+UvvZ9MM1rUDUJkel0KQdoY685LF7o="
         }
       },
       "is_incremental": false,
@@ -528,11 +636,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ShanghaiWindy.Core.Delegate.AssetLoadedDelegate.yml",
+      "source_relative_path": "api/ShanghaiWindy.Core.Delegate.InstantiateNonPoolObjectDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ShanghaiWindy.Core.Delegate.AssetLoadedDelegate.html",
-          "hash": "rfMOCc/cP6ltWvWbW+RzFeHbwUancOvjNG0MJOoNOQ0="
+          "relative_path": "api/ShanghaiWindy.Core.Delegate.InstantiateNonPoolObjectDelegate.html",
+          "hash": "vObZwNoEkJRye3D6vvqEfS6MIpll0i72OWc4Quk1P9g="
         }
       },
       "is_incremental": false,
@@ -544,7 +652,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.LoadPoolAssetDelegate.html",
-          "hash": "flkyKMn1spqural3g01or+pPhEK5lsi5ux0Co4cw/7o="
+          "hash": "CTao4icswc+B+ICVIeECtMrqoGFnEaim7riwhkuFo9c="
         }
       },
       "is_incremental": false,
@@ -556,7 +664,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnBattleSceneLoadedDelegate.html",
-          "hash": "6hH3Smv/OHGIQIuX8sJMWatgQfD1of92CBfqsarvx50="
+          "hash": "1aFZzcjGheER5KV4HtMT0eCeyBWgjXEvUghAyZrDU6k="
         }
       },
       "is_incremental": false,
@@ -568,7 +676,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnBattleUILoadedDelegate.html",
-          "hash": "zr3QbmMbqF5avfgNeRDSJyjgW2ST0xs3dQgEROtRMZo="
+          "hash": "iY3tFs6uX7OQQBR/xGY1kJKQgezokaDMIsMn8hVTx28="
         }
       },
       "is_incremental": false,
@@ -580,7 +688,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnFiredDelegate.html",
-          "hash": "9Y96/PAhS5NE8LeL2t/O2+DKLcXkdsiVgiC/wWkMXI4="
+          "hash": "7wZPTU3w1F/86Uk7b5utZ8nWiMzMsYkDdzOFO8aIks4="
         }
       },
       "is_incremental": false,
@@ -592,7 +700,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnGameVehicleDestroyedDelegate.html",
-          "hash": "bjxaQr/gHb1OwcdQ6v9G1aoujsJRK1EySsyQyvQ0WhI="
+          "hash": "Ti+bhps1IZ5yp31nA8BX2qZPIJy6nMmmGe/csr7IWm4="
         }
       },
       "is_incremental": false,
@@ -604,7 +712,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnGameVehicleGameObjectRemovedDelegate.html",
-          "hash": "y2Rxp1qaVhNrJHPColcnX3zjaP4GL9MjfZnXZzxKkeU="
+          "hash": "tsugjrqJ/CZdA0CgZmR356r6O/I9pXSCi49FI77rfTE="
         }
       },
       "is_incremental": false,
@@ -616,7 +724,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnGameVehicleLoadedDelegate.html",
-          "hash": "E3i3ilfW1zXdUWTsZQcWJhrIk75H1V4JWTrQdVRM/oQ="
+          "hash": "5rz/ZBsg5qiYRxDfZ08yJw2gPOwPIntcTG9Ml5WHdKU="
         }
       },
       "is_incremental": false,
@@ -628,7 +736,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnKeyCanceled.html",
-          "hash": "VDSrIdgZRQo86pslyGWcoTCh0H4kxsa/mCjAwWRT3sA="
+          "hash": "EEzSot17SA+DbX7/iqvTxTzxIAzHDXeQaF2UZKjmvOU="
         }
       },
       "is_incremental": false,
@@ -640,7 +748,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnKeyPerformed.html",
-          "hash": "cJscIuNZGSWy8r148cS/TZ3R1DzugxEdO5zu3Rpjevw="
+          "hash": "G7cjPpzqZpHE6srYFAvKq/AhT/lzm+WF6SIBWfO7cJE="
         }
       },
       "is_incremental": false,
@@ -652,7 +760,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnKeyRegistered.html",
-          "hash": "6InMzhPZt3os/QYn7v/BrMLGZ522gSLeE4rALku9VtY="
+          "hash": "aRerlGKGup2YRcKDj++BNX6XgX6Dcezq1rdUTGunLs8="
         }
       },
       "is_incremental": false,
@@ -664,7 +772,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnKeyUnregistered.html",
-          "hash": "Pgm2wVTWWoaIExaP95XNyui2OZF/mAtNHer03c/4l6U="
+          "hash": "RuT9Wn+NT66mN2IJlvbyg42S7vx540MNRlXjhvAQ5Us="
         }
       },
       "is_incremental": false,
@@ -676,7 +784,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnQuarterTickDelegate.html",
-          "hash": "rpa2uP2o18yijs54d4l5Yb+jEx/vFLboaHXGfkvbXVI="
+          "hash": "tkJKFaa2sx8XXfsjwEUaIkfNPsj5lRa667uDib+SY1c="
         }
       },
       "is_incremental": false,
@@ -688,7 +796,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnTickDelegate.html",
-          "hash": "o+y03ZFGYzt6imHi4X5d8EJJUKxz81BhRa7qO5Grkc4="
+          "hash": "WXok/qZQIQ71047mfFq/daTVIWS7CPHs/O0GN2YY+KI="
         }
       },
       "is_incremental": false,
@@ -700,7 +808,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnVehicleDestroyedDelegate.html",
-          "hash": "Hrl0qvwPPDiAIxExLmwUgedn1QKb0aHPNFWLXe1SnLw="
+          "hash": "N4cd7ARwvVz9V2ImkkoTUiqLD/Eek1EcyIG9rZXx3HE="
         }
       },
       "is_incremental": false,
@@ -712,7 +820,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnVehicleLoadedDelegate.html",
-          "hash": "G33dG5qEJzxuRzfpl7AUJp69289ZwNqHooYfYLYHNEQ="
+          "hash": "gJPvEfpnWZ+5MDfYMYRqDM/l2d34QonAIx2n5olrO0E="
         }
       },
       "is_incremental": false,
@@ -724,7 +832,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnVehicleRemovedDelegate.html",
-          "hash": "WuHnwFOuCWFWYMH9WHMBxbcNPRKJ88FoXj9jMkOElZE="
+          "hash": "lrLxDNmFbivNwffWwujqnpmCGHWgmV4JltB5A1MKaL0="
         }
       },
       "is_incremental": false,
@@ -736,7 +844,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.OnVehicleThumbnailLoadedDelegate.html",
-          "hash": "4wl1P5E7sPNYVtuTw6BaxhULYaj747UKnmWOi5274uk="
+          "hash": "P5lcRMSOS3Do8bZyQPBkqSluvHP64XTTzxSC0L1Yd4Y="
         }
       },
       "is_incremental": false,
@@ -748,7 +856,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.PostEventLoadedDelegate.html",
-          "hash": "NYWQO16+qJ9JdFPsQOnpRC2GXIHK+e64DAT71glnh4M="
+          "hash": "nryQcwQq5V3dSeW1ezBwk2NI+nZhryHbNwe0eaYEsMc="
         }
       },
       "is_incremental": false,
@@ -760,7 +868,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Delegate.html",
-          "hash": "Sb5L88iva3qjYyoewBmpk40tEyqoEx69kZyLm1wrH3M="
+          "hash": "i2WCIJbgdY9SSfRqVpLgE4namk+4EjaAXDkjpI31vTg="
         }
       },
       "is_incremental": false,
@@ -772,7 +880,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.ECaptureStage.html",
-          "hash": "quCpmCtpJV6n6SZBtjJ9mtLOyX1lW/yZ6agKdSgLy1s="
+          "hash": "t13VouzosvGbtfpid5sgsDqy1XI3QmkSXZUZHhoP440="
         }
       },
       "is_incremental": false,
@@ -784,7 +892,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.EIconPosition.html",
-          "hash": "KmKqDUkp+BMG6UTz5NX8qo8OKjj45qsIfQ3foxIgHhw="
+          "hash": "/d7hLOzYfnEiXzoLgVlkxCOGK2WfZx/e53WePx04Rpg="
         }
       },
       "is_incremental": false,
@@ -796,7 +904,19 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.FlightPlayerState.html",
-          "hash": "lzVUAJIJbtw1pGDZ1Q/HW3hnbziuxBsqajVIuQa2CXY="
+          "hash": "iUD4d5s7L1K9138syCCfIvsVFxJY9vPpY8OC+m7c884="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShanghaiWindy.Core.IControllableVehicle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShanghaiWindy.Core.IControllableVehicle.html",
+          "hash": "BuDQ2vnuHdk2JLnY41h8MIcdB5HJLGai1ECrTV2ndMY="
         }
       },
       "is_incremental": false,
@@ -808,7 +928,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Lua.ILuaBase.html",
-          "hash": "aBWipEWKWvIzYk6h2kSDciy8NQz1xYkzMlfnrdYzr+I="
+          "hash": "4o42hh8gxTCGN6NnUUydLiUfjRoLcPZC3WBNooRgMH4="
         }
       },
       "is_incremental": false,
@@ -820,7 +940,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Lua.ILuaBehavior.html",
-          "hash": "uf9OFkBGq/Bvz5mZRBS+TgNeomMRNUf7jE3P8jEmPlU="
+          "hash": "t/J6WoFzLyGlfnjQJAJT6tWiHWGnobT7gPhQMQbiD3U="
         }
       },
       "is_incremental": false,
@@ -832,7 +952,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Lua.ILuaBuffCaster.html",
-          "hash": "olzTalUbFVEv5Ve23MX8pYbxTEZndtr7JUdg/yOhfHQ="
+          "hash": "9D27hpuNypScRo9jbhDHLVn6eHp4mNztxZxAlWQ0uiU="
         }
       },
       "is_incremental": false,
@@ -844,7 +964,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Lua.ILuaCommon.html",
-          "hash": "BX6vE7Jb18QutRJoqbhJj0F4ZLxi8zd+RiI3Ynp04bk="
+          "hash": "KuaoN1iRGIMQqkZumJoVmoEMU10uyjnfoaBmjnk0zBQ="
         }
       },
       "is_incremental": false,
@@ -856,7 +976,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Lua.ILuaControllableVehicle.html",
-          "hash": "GD8Nb4+Wlk34jI+4mVRn+bZtTlxD2kWm5PJdaaKnv6Q="
+          "hash": "znRhI7A4wxGCZh3oZZBssCB8tJbim8oW4w9gHDB6OE4="
         }
       },
       "is_incremental": false,
@@ -868,7 +988,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Lua.ILuaGameMode.html",
-          "hash": "y2lCRyGCv5sEEpKRz+JYhsb2N4fkE543R4gM4AAG6vM="
+          "hash": "pPOxdIMnJ0irK4KMCq6YzrQRtv3JC3ryc3Jfxv7cXCI="
         }
       },
       "is_incremental": false,
@@ -880,7 +1000,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.Lua.LuaBehaviorMono.html",
-          "hash": "dW62LuR+KUpns7LTeqS/c/AHewKeO4qlS82nq7Bngj4="
+          "hash": "zuFJz3l96ti8A0L9oIyMy5POl+6bADp+d2ZZoSu+UUw="
         }
       },
       "is_incremental": false,
@@ -900,11 +1020,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ShanghaiWindy.Core.ObjectPoolComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShanghaiWindy.Core.ObjectPoolComponent.html",
+          "hash": "5OBVJ2UYU2EOxub9TdrIJlZ9SrqJ4XeyNx4+l/F3B10="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ShanghaiWindy.Core.PropValue-1.yml",
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.PropValue-1.html",
-          "hash": "O+1Yy5ZPYGJkkd+Kn9YRAawMOk51EO884wVwWz2C7eE="
+          "hash": "kN/vAvHh8OwbX4+aOP9peeiLbVhA+AoCugVaZYuD1EQ="
         }
       },
       "is_incremental": false,
@@ -916,19 +1048,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.TankFire.html",
-          "hash": "SVB/jVmz3KQXqSogAQoFpmuVEHoWxshp8P54kxLw2Dg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ShanghaiWindy.Core.TankInitSystem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ShanghaiWindy.Core.TankInitSystem.html",
-          "hash": "35Kb9Gq5dhMjXBeV+YsHaNnXm7gBCxDBw1mK7InZoLo="
+          "hash": "oxxKfdzXKfk5oFfkOIROzUoILD6U08drKyyzkW6tqGI="
         }
       },
       "is_incremental": false,
@@ -940,7 +1060,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.TankVehicleComponents.html",
-          "hash": "VN/atOluDaja7x5UoaZCNYMyUN+C08K4MxE5/2fOu30="
+          "hash": "WyMgwHrPO9WjsX0TmzHpyuNsNPqByiqLNclrYO106Hg="
         }
       },
       "is_incremental": false,
@@ -952,7 +1072,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.TeamManager.Team.html",
-          "hash": "s54izqkYAXbNRT+oeCvpZESfFAXNrG7ANxFDYZwGW5g="
+          "hash": "a8k0ppl/zkY+ejIDBpY4H3IbXbiAOBBtPtkMiAUfteM="
         }
       },
       "is_incremental": false,
@@ -964,7 +1084,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.TeamManager.html",
-          "hash": "yMPqSqS6BtP7MG5Y7NQaey/hLdfRnOmmtKf5Ka7GS0g="
+          "hash": "3fHiPRPThnyFl4AdgZn1ZooS2GgRFo22Hrdvh2RreZU="
         }
       },
       "is_incremental": false,
@@ -976,7 +1096,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.TurretController.html",
-          "hash": "plRkX1tVziBd7n5MJ2at+7jhk2RiXqIkY52SANGhgRU="
+          "hash": "gKCIdagtDIYLv+Upau8nYJjj9OdgEXSiloJL3YNPBaA="
         }
       },
       "is_incremental": false,
@@ -988,7 +1108,19 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.UIEnum.html",
-          "hash": "n161e9+rZf3x6rPN6Z0Fh84odzc1CoZ/UAHA/uW5Mp4="
+          "hash": "HTFNDTEVdKIcSwnEwHz0GezTsNmLwuomXn2/zcLsZWQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShanghaiWindy.Core.UIPoolComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShanghaiWindy.Core.UIPoolComponent.html",
+          "hash": "wNvQqyVFpLscvVT6hYaReW0RBFJv+drCmWskmku4TYE="
         }
       },
       "is_incremental": false,
@@ -1000,7 +1132,19 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.VehicleInfo.html",
-          "hash": "SgbgQsFyS0Qk0ntbPUrF47JY73JIKoPd0yHbIiLssjg="
+          "hash": "d9juf6p7U7mB+ixPdwnp4PdHAp46akfGIDyvB3DiSqU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShanghaiWindy.Core.VehicleInitSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShanghaiWindy.Core.VehicleInitSystem.html",
+          "hash": "cH/hUYGzXCRi4B4q/g9aFtKodISUi5JblL37EQjssc0="
         }
       },
       "is_incremental": false,
@@ -1012,7 +1156,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Core.html",
-          "hash": "2L3+4SzTZRXI58414KB85PDHN0/6AlV3UQh51cD9+HA="
+          "hash": "V3zsg33VDlTJevbqgaoLvwvqpkl93IlDVrugp287u7Q="
         }
       },
       "is_incremental": false,
@@ -1024,7 +1168,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Data.CaptureZone.html",
-          "hash": "3C5epR0CJmaPn9fLfVFF1oESCou+o6ND2Nzowygennw="
+          "hash": "rk+GpGOBPJrXOmrvM8ScePTAzg8Jsq11ox/oyYvGTvU="
         }
       },
       "is_incremental": false,
@@ -1036,7 +1180,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Data.CaptureZoneModeConfig.html",
-          "hash": "EBoHleOB9Q0DGkYYwo1G2OpDo3ZsqK9XNOOi6mF66SM="
+          "hash": "r/yhHBT8V1jti44YUOAVCFpyHi30DIn6vxTkEMQgYrg="
         }
       },
       "is_incremental": false,
@@ -1048,7 +1192,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Data.MaterialConfig.html",
-          "hash": "AbEHCOqInnS2kUGLlmCeMMYgBraSeHB0LYh77mdDkts="
+          "hash": "zHEWV28Y/lstK0JQjLhhMmOS1QG8SkzZgwPnvyaDIgo="
         }
       },
       "is_incremental": false,
@@ -1060,7 +1204,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Data.TransformInfo.html",
-          "hash": "7e0Zb21A0i5adh/THGFaFHoCKgv5mr7YEvo6l1GIo10="
+          "hash": "osVqTwC5H6EdVZ0yOyLc6PEgg29Rol6F8Usq192sgeg="
         }
       },
       "is_incremental": false,
@@ -1072,7 +1216,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Data.WaveAttackInfo.html",
-          "hash": "M7fJWXdCAptoSpwVyk+39pMsa6+nYEGVN7rrU0taqGg="
+          "hash": "tVefYvNr2Q/58KFwDM2dsSpl1KGiWLv+HFD5jB36rIE="
         }
       },
       "is_incremental": false,
@@ -1084,7 +1228,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Data.WaveInfo.html",
-          "hash": "9um5O5LH+nDvQj0+JIQgxQMNfzctE2dFHMJ4CuksmIE="
+          "hash": "nHVTcOQ+fuvOpK8Yk+FEiMgtjKTDatCeUghFS+quTFM="
         }
       },
       "is_incremental": false,
@@ -1096,7 +1240,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Data.WaveMissionConfig.html",
-          "hash": "dLntM9z9bd+D+mCo+T6b1y/rGZkA2L8oek1RqCSucp0="
+          "hash": "adDGXn/Mhc1q4lIxeNVGxYhc8AybhVA3LeodtODNE+M="
         }
       },
       "is_incremental": false,
@@ -1108,7 +1252,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Data.ZoneCapturePoint.html",
-          "hash": "svF1qbZkqCWt65DGWIpNAN8ioRxM6CAcrNrnfqaoAM8="
+          "hash": "EbyltJsZ3dQqq8H9E9MvcNJP7sUUVKmKOBKq/CuFzTo="
         }
       },
       "is_incremental": false,
@@ -1120,7 +1264,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShanghaiWindy.Data.ZoneChain.html",
-          "hash": "tiYa0ARGi44Ubriw8uGsvh6ULtQKwqkPclkR8hlLxBs="
+          "hash": "fOKRqp+hT5vyW0D5VowX/LlPiGtppYRDUrVroPw2wOU="
         }
       },
       "is_incremental": false,
@@ -1156,7 +1300,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "fwjLD+KA7/Vlei+bomvJD5/MQ/aYMkfIC2Fj7YYzzUo="
+          "hash": "OSXHAxrntN15F9xN5jkB4rlaE1UIvEhKnEcnss2DxLg="
         }
       },
       "is_incremental": false,
@@ -1887,6 +2031,66 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/release/周报 2023_11_23.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/release/周报 2023_11_23.html",
+          "hash": "z8ht812jnAIL7bI9oJfEuHBT5CwlmuO5Bt27s8cPetQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/release/周报 2023_11_28.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/release/周报 2023_11_28.html",
+          "hash": "62VuzZhCkvt/pstltSthAR+yRSnRhQ4aOI43MmVi+L4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/release/周报 2023_12_03.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/release/周报 2023_12_03.html",
+          "hash": "MONu4ob6pMJX3ukcjmOWMmFxCOu6A60D96IrFfgO+Hk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/release/周报 2023_12_08.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/release/周报 2023_12_08.html",
+          "hash": "ciWb9q66Bsv1AA7+0ezMQDgzHBkC2T76O9KrpxxwwvU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/release/周报 2023_12_09.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/release/周报 2023_12_09.html",
+          "hash": "uLfMtxw32RMRYDsk4duBEfUYkoCZzq740Y7vuumdlJc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/release/周报 2023_1_14 决定版更新日志.md",
       "output": {
         ".html": {
@@ -2263,7 +2467,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "VPcCc9Bc2HDy9bd5J4yVCEOgYZxB+Kb+ZxFwPz3mKiQ="
+          "hash": "nXqbCFNY5Gq3PbzHxPVrv/CSFxZbgojW8imymztwW/k="
         }
       },
       "is_incremental": false,
@@ -7882,7 +8086,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/日报.html",
-          "hash": "l5M1+TWiO9lO+REJ2n2T/DkkIEinXNb8iOMDmBVMw+k="
+          "hash": "YudZkq+RXyO3zZMrO98mUwob3ZpuyKjVHB1zlMaGgjc="
         }
       },
       "is_incremental": false,
@@ -7915,13 +8119,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 123,
+          "total_file_count": 128,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 93,
+          "total_file_count": 105,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

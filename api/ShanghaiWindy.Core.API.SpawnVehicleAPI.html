@@ -89,14 +89,14 @@ Vehicle Spawn APIs
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">SpawnVehicleAPI</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a>.<a class="xref" href="ShanghaiWindy.Core.API.html">API</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_API_SpawnVehicleAPI_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static class SpawnVehicleAPI</code></pre>
   </div>
   <h3 id="methods">Methods
@@ -112,7 +112,7 @@ Create a free camera
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static FreeCameraInitSystem CreateFreeCamera(Vector3 pos, Quaternion rot)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -163,7 +163,7 @@ Create a Local Bot
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void CreateLocalBot(VehicleInfo vehicleInfo, Vector3 pos, Quaternion rot, TeamManager.Team botTeam, bool isKeepWreckage, bool isIdle)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -197,12 +197,12 @@ public static void CreateLocalBot(VehicleInfo vehicleInfo, Vector3 pos, Quaterni
         <td>决定玩家所在队伍 Decide which team player spawned</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">isKeepWreckage</span></td>
         <td>在mod支持的情况下保留残骸 Keep wreckage when the mod supports</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">isIdle</span></td>
         <td>是否处于空闲或攻击玩家状态 Is idle or attack player</td>
       </tr>
@@ -219,7 +219,7 @@ Create a Local Player. You can set player team from GameDataManager.PlayerTeam
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static BaseInitSystem CreatePlayer(VehicleInfo vehicleInfo, Vector3 pos, Quaternion rot, Action&lt;BaseInitSystem&gt; onPreBind)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -248,7 +248,7 @@ public static BaseInitSystem CreatePlayer(VehicleInfo vehicleInfo, Vector3 pos, 
         <td>生成旋转 Spawn rotation</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="ShanghaiWindy.Core.BaseInitSystem.html">BaseInitSystem</a>&gt;</td>
+        <td><span class="xref">System.Action&lt;T&gt;</span>&lt;<a class="xref" href="ShanghaiWindy.Core.BaseInitSystem.html">BaseInitSystem</a>&gt;</td>
         <td><span class="parametername">onPreBind</span></td>
         <td>载具创建前的回调 A callback before vehicle is created</td>
       </tr>

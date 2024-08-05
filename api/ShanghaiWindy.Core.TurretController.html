@@ -86,7 +86,7 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">ShanghaiWindy.Core.BaseVehicleComponent&lt;T&gt;</span>&lt;<a class="xref" href="ShanghaiWindy.Core.BaseInitSystem.html">BaseInitSystem</a>&gt;</div>
     <div class="level2"><span class="xref">ShanghaiWindy.Core.GenericVehicleComponent</span></div>
     <div class="level3"><span class="xref">TurretController</span></div>
@@ -94,13 +94,14 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><span class="xref">IDynamicDataPatchable</span></div>
+    <div><span class="xref">IPawnControlledComponent</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_TurretController_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public class TurretController : GenericVehicleComponent, IDynamicDataPatchable</code></pre>
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public class TurretController : GenericVehicleComponent, IDynamicDataPatchable, IPawnControlledComponent</code></pre>
   </div>
   <h3 id="fields">Fields
 </h3>
@@ -114,7 +115,7 @@ Dym Transform
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Transform dymTransform</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -142,7 +143,7 @@ Fire Angle
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public float fireAngle</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -155,7 +156,7 @@ public float fireAngle</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="xref">float</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -170,7 +171,7 @@ Gun Transform
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Transform gunTransform</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -198,7 +199,7 @@ Initial Transform
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Transform InitialTrans</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -226,7 +227,7 @@ Is Locked
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public bool isLocked</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -239,7 +240,7 @@ public bool isLocked</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -254,7 +255,7 @@ Is Target Within Range
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public bool isTargetWithinRange</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -267,7 +268,7 @@ public bool isTargetWithinRange</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -282,7 +283,7 @@ Target
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Transform target</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -310,7 +311,7 @@ Turret Parameters
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public MouseTurretParameter turretParams</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -338,7 +339,7 @@ Turret Transform
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Transform turretTransform</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -369,7 +370,7 @@ Gun Elevator Speed Buff
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public BuffProperty GunSpeedBuffedCoff { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -398,7 +399,7 @@ Is Local Player
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public bool isLocalPlayer { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -411,7 +412,7 @@ public bool isLocalPlayer { get; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -427,7 +428,7 @@ Turret Parameter Provider
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public ITurretParamProvider turretParamProvider { set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -456,7 +457,7 @@ Turret Traverse Speed Buff
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public BuffProperty TurretSpeedBuffedCoff { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -477,6 +478,9 @@ public BuffProperty TurretSpeedBuffedCoff { get; }</code></pre>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IDynamicDataPatchable</span>
+  </div>
+  <div>
+      <span class="xref">IPawnControlledComponent</span>
   </div>
 </article>
           </div>

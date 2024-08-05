@@ -86,14 +86,14 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">GameObjectAPI</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a>.<a class="xref" href="ShanghaiWindy.Core.API.html">API</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_API_GameObjectAPI_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static class GameObjectAPI</code></pre>
   </div>
   <h3 id="methods">Methods
@@ -109,7 +109,7 @@ Clone object
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static GameObject Clone(GameObject go)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -155,7 +155,7 @@ Destroy object
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void DestroyObject(GameObject go)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -186,7 +186,7 @@ Do not destroy the target Object when loading a new Scene
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void DontDestroyOnLoad(GameObject go)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -217,7 +217,7 @@ Find path
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static GameObject Find(GameObject go, string path)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -236,7 +236,7 @@ public static GameObject Find(GameObject go, string path)</code></pre>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">path</span></td>
         <td></td>
       </tr>
@@ -268,7 +268,7 @@ Set object active
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void SetActive(GameObject go, bool isActive)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -287,7 +287,7 @@ public static void SetActive(GameObject go, bool isActive)</code></pre>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">isActive</span></td>
         <td></td>
       </tr>
@@ -304,7 +304,7 @@ Set object visible
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void SetVisible(GameObject go, bool isVisible)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -323,7 +323,7 @@ public static void SetVisible(GameObject go, bool isVisible)</code></pre>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">isVisible</span></td>
         <td></td>
       </tr>

@@ -89,14 +89,14 @@ Vehicle Components
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">TankVehicleComponents</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_TankVehicleComponents_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 [Serializable]
 public class TankVehicleComponents</code></pre>
   </div>
@@ -104,7 +104,7 @@ public class TankVehicleComponents</code></pre>
 </h3>
 
 
-  <h4 id="ShanghaiWindy_Core_TankVehicleComponents_basePlayerState" data-uid="ShanghaiWindy.Core.TankVehicleComponents.basePlayerState">basePlayerState</h4>
+  <h4 id="ShanghaiWindy_Core_TankVehicleComponents_basePawn" data-uid="ShanghaiWindy.Core.TankVehicleComponents.basePawn">basePawn</h4>
   <div class="markdown level1 summary">
 基本玩家状态
 Base Player State
@@ -112,8 +112,8 @@ Base Player State
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public BasePlayerState basePlayerState</code></pre>
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public BasePawn basePawn</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -125,7 +125,60 @@ public BasePlayerState basePlayerState</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ShanghaiWindy.Core.BasePlayerState.html">BasePlayerState</a></td>
+        <td><a class="xref" href="ShanghaiWindy.Core.BasePawn.html">BasePawn</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="ShanghaiWindy_Core_TankVehicleComponents_baseVehiclePawn" data-uid="ShanghaiWindy.Core.TankVehicleComponents.baseVehiclePawn">baseVehiclePawn</h4>
+  <div class="markdown level1 summary">
+坦克状态
+Tank State
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public BaseVehiclePawn baseVehiclePawn</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ShanghaiWindy.Core.BaseVehiclePawn</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="ShanghaiWindy_Core_TankVehicleComponents_battleVehiclePawn" data-uid="ShanghaiWindy.Core.TankVehicleComponents.battleVehiclePawn">battleVehiclePawn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public BattleVehiclePawn battleVehiclePawn</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ShanghaiWindy.Core.BattleVehiclePawn</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -140,7 +193,7 @@ Vehicle Damage Stick Manager
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public VehicleDamageStickManager damageStickManager</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -168,8 +221,8 @@ Fire Assist Component
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public FireAssistComponet fireAssistComponent</code></pre>
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public FireAssistComponent fireAssistComponent</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -181,7 +234,7 @@ public FireAssistComponet fireAssistComponent</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ShanghaiWindy.Core.FireAssistComponet</span></td>
+        <td><span class="xref">ShanghaiWindy.Core.FireAssistComponent</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -196,7 +249,7 @@ Fire Lock Component
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public FireLockComponent fireLockComponent</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -224,7 +277,7 @@ Fire System Configuration List
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public List&lt;FireSystemConfigure&gt; fireSystemList</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -237,7 +290,7 @@ public List&lt;FireSystemConfigure&gt; fireSystemList</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">FireSystemConfigure</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;<span class="xref">FireSystemConfigure</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -252,7 +305,7 @@ Hit Box List
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public List&lt;HitBox&gt; HitBoxes</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -265,7 +318,7 @@ public List&lt;HitBox&gt; HitBoxes</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">HitBox</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;<span class="xref">HitBox</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -280,7 +333,7 @@ Identity
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Identity identity</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -308,7 +361,7 @@ Main Body Transform Component
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Transform mainBodyTransform</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -336,8 +389,8 @@ Main Body Visibility
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public MainBodyVisibity mainBodyVisiblity</code></pre>
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public MainBodyVisibility mainBodyVisiblity</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -349,7 +402,7 @@ public MainBodyVisibity mainBodyVisiblity</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ShanghaiWindy.Core.MainBodyVisibity</span></td>
+        <td><span class="xref">ShanghaiWindy.Core.MainBodyVisibility</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -364,7 +417,7 @@ Main Camera
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Camera mainCamera</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -392,7 +445,7 @@ Main Tank Fire Index
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public PropValue&lt;int&gt; mainTankFireIndex</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -405,7 +458,7 @@ public PropValue&lt;int&gt; mainTankFireIndex</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ShanghaiWindy.Core.PropValue-1.html">PropValue</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</td>
+        <td><a class="xref" href="ShanghaiWindy.Core.PropValue-1.html">PropValue</a>&lt;<span class="xref">int</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -420,7 +473,7 @@ Player Camera Controller
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public GroundCameraController playerCamera</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -440,34 +493,6 @@ public GroundCameraController playerCamera</code></pre>
   </table>
 
 
-  <h4 id="ShanghaiWindy_Core_TankVehicleComponents_playerState" data-uid="ShanghaiWindy.Core.TankVehicleComponents.playerState">playerState</h4>
-  <div class="markdown level1 summary">
-坦克玩家状态
-Tank Player State
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public TankPlayerState playerState</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ShanghaiWindy.Core.TankPlayerState</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
   <h4 id="ShanghaiWindy_Core_TankVehicleComponents_renderers" data-uid="ShanghaiWindy.Core.TankVehicleComponents.renderers">renderers</h4>
   <div class="markdown level1 summary">
 渲染器数组
@@ -476,7 +501,7 @@ Renderer Array
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Renderer[] renderers</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -504,7 +529,7 @@ Rigidbody Component
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public Rigidbody rigidbody</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -532,7 +557,7 @@ Vehicle Self-Explosion Fire System List
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public List&lt;VehicleSelfExplosionFireSystem&gt; selfExplosionList</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -545,7 +570,7 @@ public List&lt;VehicleSelfExplosionFireSystem&gt; selfExplosionList</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">VehicleSelfExplosionFireSystem</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;<span class="xref">VehicleSelfExplosionFireSystem</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -560,7 +585,7 @@ Tank Fire Group Manager
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public TankFireFireGroupManager tankFireFireGroupManager</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -588,7 +613,7 @@ Tank Fire List
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public List&lt;TankFire&gt; tankfireList</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -601,35 +626,7 @@ public List&lt;TankFire&gt; tankfireList</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ShanghaiWindy.Core.TankFire.html">TankFire</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <h4 id="ShanghaiWindy_Core_TankVehicleComponents_tankState" data-uid="ShanghaiWindy.Core.TankVehicleComponents.tankState">tankState</h4>
-  <div class="markdown level1 summary">
-坦克状态
-Tank State
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public TankState tankState</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ShanghaiWindy.Core.TankState</span></td>
+        <td><span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;<a class="xref" href="ShanghaiWindy.Core.TankFire.html">TankFire</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -644,7 +641,7 @@ Tank Track Controller
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public TankTracksController tankTracksController</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -672,8 +669,8 @@ Tracks Controller List
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public List&lt;TracksController&gt; tracksControllers</code></pre>
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public List&lt;SplineTrackController&gt; tracksControllers</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -685,7 +682,7 @@ public List&lt;TracksController&gt; tracksControllers</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">TracksController</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;<span class="xref">SplineTrackController</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -700,7 +697,7 @@ Turret Controller List
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public List&lt;TurretController&gt; turretControllerList</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -713,7 +710,7 @@ public List&lt;TurretController&gt; turretControllerList</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ShanghaiWindy.Core.TurretController.html">TurretController</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List&lt;T&gt;</span>&lt;<a class="xref" href="ShanghaiWindy.Core.TurretController.html">TurretController</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -728,7 +725,7 @@ Vehicle Fire Cross Effect
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public VehicleFireCrossEffect vehicleFireCrossEffect</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -756,8 +753,8 @@ Vehicle Input Controller
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public VehicleInputController vehicleInputController</code></pre>
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public BaseVehicleInputController vehicleInputController</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -769,7 +766,7 @@ public VehicleInputController vehicleInputController</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ShanghaiWindy.Core.VehicleInputController</span></td>
+        <td><span class="xref">ShanghaiWindy.Core.BaseVehicleInputController</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -787,7 +784,7 @@ Main Tank Fire
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public TankFire mainTankFire { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -816,7 +813,7 @@ Main Turret Controller
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public TurretController mainTurretController { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>

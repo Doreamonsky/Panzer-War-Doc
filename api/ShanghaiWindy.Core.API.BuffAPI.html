@@ -88,14 +88,14 @@ Buff API
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">BuffAPI</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a>.<a class="xref" href="ShanghaiWindy.Core.API.html">API</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_API_BuffAPI_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static class BuffAPI</code></pre>
   </div>
   <h3 id="methods">Methods
@@ -111,7 +111,7 @@ Add a buff to vehicle
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void AddBuff(BaseInitSystem vehicle, ILuaBuffCaster buffCaster)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -147,7 +147,7 @@ Remove a buff to vehicle
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void RemoveBuff(BaseInitSystem vehicle, ILuaBuffCaster buffCaster, bool isInterrupt)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -171,7 +171,7 @@ public static void RemoveBuff(BaseInitSystem vehicle, ILuaBuffCaster buffCaster,
         <td>ILuaBuffCaster</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">isInterrupt</span></td>
         <td>是否打断 Is Interrupt</td>
       </tr>
@@ -188,7 +188,7 @@ Try to get buff receiver as army
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static bool TryGetBuffReceiverAsArmy(IBuffReceiver buffReceiver, out ArmyInitSystem armyInitSystem)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -223,7 +223,7 @@ public static bool TryGetBuffReceiverAsArmy(IBuffReceiver buffReceiver, out Army
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -239,7 +239,7 @@ Try to get buff receiver as flight
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static bool TryGetBuffReceiverAsFlight(IBuffReceiver buffReceiver, out FlightInitSystem flightInitSystem)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -274,7 +274,7 @@ public static bool TryGetBuffReceiverAsFlight(IBuffReceiver buffReceiver, out Fl
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -282,7 +282,7 @@ public static bool TryGetBuffReceiverAsFlight(IBuffReceiver buffReceiver, out Fl
 
 
   <a id="ShanghaiWindy_Core_API_BuffAPI_TryGetBuffReceiverAsTank_" data-uid="ShanghaiWindy.Core.API.BuffAPI.TryGetBuffReceiverAsTank*"></a>
-  <h4 id="ShanghaiWindy_Core_API_BuffAPI_TryGetBuffReceiverAsTank_ShanghaiWindy_Core_IBuffReceiver_ShanghaiWindy_Core_TankInitSystem__" data-uid="ShanghaiWindy.Core.API.BuffAPI.TryGetBuffReceiverAsTank(ShanghaiWindy.Core.IBuffReceiver,ShanghaiWindy.Core.TankInitSystem@)">TryGetBuffReceiverAsTank(IBuffReceiver, out TankInitSystem)</h4>
+  <h4 id="ShanghaiWindy_Core_API_BuffAPI_TryGetBuffReceiverAsTank_ShanghaiWindy_Core_IBuffReceiver_ShanghaiWindy_Core_VehicleInitSystem__" data-uid="ShanghaiWindy.Core.API.BuffAPI.TryGetBuffReceiverAsTank(ShanghaiWindy.Core.IBuffReceiver,ShanghaiWindy.Core.VehicleInitSystem@)">TryGetBuffReceiverAsTank(IBuffReceiver, out VehicleInitSystem)</h4>
   <div class="markdown level1 summary">
 尝试获取 IBuffReceiver 上的坦克类型
 Try to get buff receiver as tank
@@ -290,8 +290,8 @@ Try to get buff receiver as tank
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
-public static bool TryGetBuffReceiverAsTank(IBuffReceiver buffReceiver, out TankInitSystem tankInitSystem)</code></pre>
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
+public static bool TryGetBuffReceiverAsTank(IBuffReceiver buffReceiver, out VehicleInitSystem vehicleInitSystem)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -309,8 +309,8 @@ public static bool TryGetBuffReceiverAsTank(IBuffReceiver buffReceiver, out Tank
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="ShanghaiWindy.Core.TankInitSystem.html">TankInitSystem</a></td>
-        <td><span class="parametername">tankInitSystem</span></td>
+        <td><a class="xref" href="ShanghaiWindy.Core.VehicleInitSystem.html">VehicleInitSystem</a></td>
+        <td><span class="parametername">vehicleInitSystem</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -325,7 +325,7 @@ public static bool TryGetBuffReceiverAsTank(IBuffReceiver buffReceiver, out Tank
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>

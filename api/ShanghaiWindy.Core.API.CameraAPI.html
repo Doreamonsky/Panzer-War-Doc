@@ -89,14 +89,14 @@ Camera API
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">CameraAPI</span></div>
   </div>
   <h6><strong>Namespace</strong>: <span class="xref">ShanghaiWindy</span>.<a class="xref" href="ShanghaiWindy.Core.html">Core</a>.<a class="xref" href="ShanghaiWindy.Core.API.html">API</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ShanghaiWindy_Core_API_CameraAPI_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static class CameraAPI</code></pre>
   </div>
   <h3 id="methods">Methods
@@ -112,7 +112,7 @@ Get background camera
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static Camera GetBackGroundCamera()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -141,7 +141,7 @@ Get camera transform
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static Transform GetCameraTransform()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -170,7 +170,7 @@ Get the current main game camera
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static Camera GetGameCamera()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -199,7 +199,7 @@ Get screen position
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static Vector3 GetScreenPosition(Vector3 worldPos, out EIconPosition iconPosition)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -250,7 +250,7 @@ Screen point to world point
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static Vector3 ScreenToWorldPoint(Camera camera, Vector3 screenPoint)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -301,7 +301,7 @@ Set background camera euler angles
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void SetBackgroundCameraEulerAngles(Vector3 eulerAngles)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -332,7 +332,7 @@ Set background camera position
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static void SetBackgroundCameraPosition(Vector3 position)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -363,7 +363,7 @@ World point to screen point
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DocGen]
+    <pre><code class="lang-csharp hljs">[DocGenAttribute]
 public static Vector3 WorldToScreenPoint(Camera camera, Vector3 worldPoint)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
